@@ -16,6 +16,7 @@ import {
   Text,
   useColorScheme,
   View,
+  Button,
 } from 'react-native';
 
 import {
@@ -26,10 +27,27 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import {runOnJS, runOnUI} from 'react-native-reanimated';
+
+function callback(text)
+{
+    console.log('Running on the RN thread', text);
+}
+
+function someWorklet(greeting) {
+    'worklet';
+    console.log(greeting, "I'm on UI but can call methods from the RN thread");
+    runOnJS(callback)('can pass arguments too');
+  }
+  
+function onTestWorkletClick() {
+    runOnUI(someWorklet)('Howdy');
+}
+
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
-    <View style={styles.sectionContainer}>
+    <View style={styles.sectionContainer}>      
       <Text
         style={[
           styles.sectionTitle,
@@ -62,6 +80,7 @@ const App: () => Node = () => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <Button title="Test Worklet" onPress={onTestWorkletClick} />
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
