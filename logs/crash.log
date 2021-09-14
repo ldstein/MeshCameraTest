@@ -1,0 +1,1466 @@
+2021-09-14 23:12:45.447 30880-30880/com.meshcameratest W/.meshcamerates: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2021-09-14 23:12:45.447 30880-30880/com.meshcameratest W/.meshcamerates: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2021-09-14 23:12:45.477 30880-30880/com.meshcameratest W/unknown:ReactNative: Packager connection already open, nooping.
+2021-09-14 23:12:45.485 30880-30933/com.meshcameratest I/AdrenoGLES-0: QUALCOMM build                   : 781e7d0, I46ff5fc46f
+    Build Date                       : 12/01/20
+    OpenGL ES Shader Compiler Version: EV031.31.04.01
+    Local Branch                     : QPR1
+    Remote Branch                    : 
+    Remote Branch                    : 
+    Reconstruct Branch               : 
+2021-09-14 23:12:45.485 30880-30933/com.meshcameratest I/AdrenoGLES-0: Build Config                     : C P 11.0.1 AArch64
+2021-09-14 23:12:45.485 30880-30933/com.meshcameratest I/AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+2021-09-14 23:12:45.487 30880-30933/com.meshcameratest I/AdrenoGLES-0: PFP: 0x016ee189, ME: 0x00000000
+2021-09-14 23:12:45.489 30880-30933/com.meshcameratest W/AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+2021-09-14 23:12:45.489 30880-30933/com.meshcameratest W/AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+2021-09-14 23:12:45.512 30880-30933/com.meshcameratest I/Gralloc4: mapper 4.x is not supported
+2021-09-14 23:12:45.512 30880-30933/com.meshcameratest W/Gralloc3: mapper 3.x is not supported
+2021-09-14 23:12:45.513 30880-30933/com.meshcameratest E/libc: Access denied finding property "vendor.gralloc.disable_ahardware_buffer"
+2021-09-14 23:12:45.682 30880-30943/com.meshcameratest D/SoLoader: About to load: libhermes.so
+2021-09-14 23:12:45.683 30880-30943/com.meshcameratest D/SoLoader: libhermes.so not found on /data/data/com.meshcameratest/lib-main
+2021-09-14 23:12:45.683 30880-30943/com.meshcameratest D/SoLoader: libhermes.so found on /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64
+2021-09-14 23:12:45.683 30880-30943/com.meshcameratest D/SoLoader: Not resolving dependencies for libhermes.so
+2021-09-14 23:12:45.684 30880-30943/com.meshcameratest D/SoLoader: Loaded: libhermes.so
+2021-09-14 23:12:45.684 30880-30943/com.meshcameratest D/SoLoader: About to load: libhermes-executor-debug.so
+2021-09-14 23:12:45.685 30880-30943/com.meshcameratest D/SoLoader: libhermes-executor-debug.so not found on /data/data/com.meshcameratest/lib-main
+2021-09-14 23:12:45.685 30880-30943/com.meshcameratest D/SoLoader: libhermes-executor-debug.so found on /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64
+2021-09-14 23:12:45.685 30880-30943/com.meshcameratest D/SoLoader: Not resolving dependencies for libhermes-executor-debug.so
+2021-09-14 23:12:45.691 30880-30943/com.meshcameratest D/SoLoader: Loaded: libhermes-executor-debug.so
+2021-09-14 23:12:45.718 30880-30943/com.meshcameratest D/SoLoader: About to load: libreactnativejni.so
+2021-09-14 23:12:45.718 30880-30943/com.meshcameratest D/SoLoader: libreactnativejni.so not found on /data/data/com.meshcameratest/lib-main
+2021-09-14 23:12:45.718 30880-30943/com.meshcameratest D/SoLoader: libreactnativejni.so found on /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64
+2021-09-14 23:12:45.718 30880-30943/com.meshcameratest D/SoLoader: Not resolving dependencies for libreactnativejni.so
+2021-09-14 23:12:45.719 30880-30943/com.meshcameratest D/SoLoader: Loaded: libreactnativejni.so
+    
+    --------- beginning of system
+2021-09-14 23:12:47.821 30880-30950/com.meshcameratest D/SoLoader: About to load: libturbomodulejsijni.so
+2021-09-14 23:12:47.822 30880-30950/com.meshcameratest D/SoLoader: libturbomodulejsijni.so not found on /data/data/com.meshcameratest/lib-main
+2021-09-14 23:12:47.822 30880-30950/com.meshcameratest D/SoLoader: libturbomodulejsijni.so found on /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64
+2021-09-14 23:12:47.822 30880-30950/com.meshcameratest D/SoLoader: Not resolving dependencies for libturbomodulejsijni.so
+2021-09-14 23:12:47.824 30880-30950/com.meshcameratest D/SoLoader: Loaded: libturbomodulejsijni.so
+2021-09-14 23:12:47.824 30880-30950/com.meshcameratest I/VisionCamera: Initializing FrameProcessorRuntimeManager...
+2021-09-14 23:12:47.825 30880-30950/com.meshcameratest I/VisionCamera: Initializing Vision JS-Runtime...
+2021-09-14 23:12:47.825 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+2021-09-14 23:12:47.828 30880-30950/com.meshcameratest I/VisionCamera: Initialized Vision JS-Runtime!
+2021-09-14 23:12:47.828 30880-30950/com.meshcameratest I/FrameProcessorRuntime: Installing Frame Processor Plugins...
+2021-09-14 23:12:47.828 30880-30950/com.meshcameratest I/VisionCamera: Installing Frame Processor Plugin "__runExample1"...
+2021-09-14 23:12:47.828 30880-30950/com.meshcameratest I/VisionCamera: Installing Frame Processor Plugin "__runExample2"...
+2021-09-14 23:12:47.828 30880-30950/com.meshcameratest I/FrameProcessorRuntime: Successfully installed 2 Frame Processor Plugins!
+2021-09-14 23:12:47.828 30880-30944/com.meshcameratest I/VisionCamera: Installing JSI bindings...
+2021-09-14 23:12:47.828 30880-30944/com.meshcameratest I/VisionCamera: Finished installing JSI bindings!
+2021-09-14 23:12:47.832 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+2021-09-14 23:12:47.836 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+2021-09-14 23:12:47.837 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+2021-09-14 23:12:47.838 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+2021-09-14 23:12:47.841 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+2021-09-14 23:12:47.842 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+2021-09-14 23:12:47.843 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+2021-09-14 23:12:47.844 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+2021-09-14 23:12:47.847 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+2021-09-14 23:12:47.848 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+2021-09-14 23:12:47.848 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+2021-09-14 23:12:47.850 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+2021-09-14 23:12:47.850 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+2021-09-14 23:12:47.851 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+2021-09-14 23:12:47.851 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+2021-09-14 23:12:47.853 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+2021-09-14 23:12:47.854 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+2021-09-14 23:12:47.855 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+2021-09-14 23:12:47.856 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+2021-09-14 23:12:47.856 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+2021-09-14 23:12:47.856 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+2021-09-14 23:12:47.859 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+2021-09-14 23:12:47.861 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+2021-09-14 23:12:47.863 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+2021-09-14 23:12:47.863 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+2021-09-14 23:12:47.865 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+2021-09-14 23:12:47.865 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+2021-09-14 23:12:47.866 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+2021-09-14 23:12:47.866 30880-30943/com.meshcameratest W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.mrousavy.camera.CameraViewManager
+2021-09-14 23:12:47.874 30880-30943/com.meshcameratest W/.meshcamerates: Accessing hidden field Ljava/lang/reflect/Field;->accessFlags:I (greylist, reflection, allowed)
+2021-09-14 23:12:47.883 30880-30880/com.meshcameratest W/unknown:ReactNative: Packager connection already open, nooping.
+2021-09-14 23:12:47.885 30880-30945/com.meshcameratest D/SoLoader: About to load: libyoga.so
+2021-09-14 23:12:47.886 30880-30945/com.meshcameratest D/SoLoader: libyoga.so not found on /data/data/com.meshcameratest/lib-main
+2021-09-14 23:12:47.886 30880-30945/com.meshcameratest D/SoLoader: libyoga.so found on /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64
+2021-09-14 23:12:47.886 30880-30945/com.meshcameratest D/SoLoader: Not resolving dependencies for libyoga.so
+2021-09-14 23:12:47.890 30880-30945/com.meshcameratest D/SoLoader: Loaded: libyoga.so
+2021-09-14 23:12:47.923 30880-30945/com.meshcameratest I/flipper: flipper: FlipperClient::addPlugin Fresco
+2021-09-14 23:12:48.104 30880-30944/com.meshcameratest D/SoLoader: About to load: libreactnativeblob.so
+2021-09-14 23:12:48.104 30880-30944/com.meshcameratest D/SoLoader: libreactnativeblob.so not found on /data/data/com.meshcameratest/lib-main
+2021-09-14 23:12:48.105 30880-30944/com.meshcameratest D/SoLoader: libreactnativeblob.so found on /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64
+2021-09-14 23:12:48.105 30880-30944/com.meshcameratest D/SoLoader: Not resolving dependencies for libreactnativeblob.so
+2021-09-14 23:12:48.106 30880-30944/com.meshcameratest D/SoLoader: Loaded: libreactnativeblob.so
+2021-09-14 23:12:48.146 30880-30945/com.meshcameratest I/WebViewFactory: Loading com.google.android.webview version 93.0.4577.62 (code 457706233)
+2021-09-14 23:12:48.185 30880-30945/com.meshcameratest W/.meshcamerates: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+2021-09-14 23:12:48.185 30880-30945/com.meshcameratest W/.meshcamerates: Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+2021-09-14 23:12:48.185 30880-30945/com.meshcameratest W/.meshcamerates: Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+2021-09-14 23:12:48.185 30880-30945/com.meshcameratest W/.meshcamerates: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+2021-09-14 23:12:48.185 30880-30945/com.meshcameratest W/.meshcamerates: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+2021-09-14 23:12:48.189 30880-30945/com.meshcameratest I/cr_WVCFactoryProvider: Loaded version=93.0.4577.62 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+2021-09-14 23:12:48.202 30880-30945/com.meshcameratest I/cr_LibraryLoader: Successfully loaded native library
+2021-09-14 23:12:48.202 30880-30945/com.meshcameratest I/cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms.
+2021-09-14 23:12:48.541 30880-30944/com.meshcameratest I/ReactNativeJS: Running "MeshCameraTest" with {"rootTag":1}
+2021-09-14 23:12:48.733 30880-30963/com.meshcameratest D/ExtenderVersion: No versioning extender found. Falling back to default.
+2021-09-14 23:12:48.753 30880-30966/com.meshcameratest I/CameraManagerGlobal: Connecting to camera service
+2021-09-14 23:12:48.764 30880-30966/com.meshcameratest D/CameraRepository: Added camera: 0
+2021-09-14 23:12:48.782 30880-30966/com.meshcameratest I/Camera2CameraInfo: Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_3
+2021-09-14 23:12:48.783 30880-30966/com.meshcameratest D/CameraRepository: Added camera: 1
+2021-09-14 23:12:48.784 30880-30966/com.meshcameratest I/Camera2CameraInfo: Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_FULL
+2021-09-14 23:12:48.784 30880-30966/com.meshcameratest D/CameraRepository: Added camera: 2
+2021-09-14 23:12:48.784 30880-30966/com.meshcameratest I/Camera2CameraInfo: Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_3
+2021-09-14 23:12:48.785 30880-30966/com.meshcameratest D/CameraRepository: Added camera: 3
+2021-09-14 23:12:48.785 30880-30966/com.meshcameratest I/Camera2CameraInfo: Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_3
+2021-09-14 23:12:48.786 30880-30966/com.meshcameratest D/CameraValidator: Verifying camera lens facing on blueline, lensFacingInteger: null
+2021-09-14 23:12:48.932 30880-30963/com.meshcameratest W/CameraView: CameraViewModule::getAvailableCameraDevices took: 215 ms
+2021-09-14 23:12:49.013 30880-30880/com.meshcameratest D/CameraView: Lifecycle went from INITIALIZED -> INITIALIZED (isActive: true | isAttachedToWindow: true)
+2021-09-14 23:12:49.019 30880-30880/com.meshcameratest D/CameraView: Lifecycle went from INITIALIZED -> RESUMED (isActive: true | isAttachedToWindow: true)
+2021-09-14 23:12:49.020 30880-30880/com.meshcameratest D/CameraView: Lifecycle went from RESUMED -> RESUMED (isActive: true | isAttachedToWindow: true)
+2021-09-14 23:12:49.020 30880-30880/com.meshcameratest I/CameraView: Configuring session...
+2021-09-14 23:12:49.021 30880-30880/com.meshcameratest I/CameraView: Configuring session with Camera ID 0 and custom format...
+2021-09-14 23:12:49.026 30880-30880/com.meshcameratest I/CameraView: Using custom format - photo: 4000x2000, video: 4000x2000 @ null FPS
+2021-09-14 23:12:49.026 30880-30880/com.meshcameratest I/CameraView: Adding ImageAnalysis use-case...
+2021-09-14 23:12:49.030 30880-30880/com.meshcameratest I/CameraView: Attaching 1 use-cases...
+2021-09-14 23:12:49.035 30880-30944/com.meshcameratest I/VisionCamera: Setting new Frame Processor...
+2021-09-14 23:12:49.035 30880-30944/com.meshcameratest D/FrameProcessorRuntime: finding view 7...
+2021-09-14 23:12:49.035 30880-30944/com.meshcameratest D/FrameProcessorRuntime: found view 7! is null: false
+2021-09-14 23:12:49.035 30880-30944/com.meshcameratest I/VisionCamera: Found CameraView!
+2021-09-14 23:12:49.035 30880-30944/com.meshcameratest I/VisionCamera: Adapting Shareable value from function (conversion to worklet)...
+2021-09-14 23:12:49.036 30880-30944/com.meshcameratest I/VisionCamera: Successfully created worklet!
+2021-09-14 23:12:49.038 30880-30950/com.meshcameratest I/VisionCamera: Frame Processor set!
+2021-09-14 23:12:49.043 30880-30880/com.meshcameratest D/CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2021-09-14 23:12:49.043 30880-30880/com.meshcameratest D/CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2021-09-14 23:12:49.048 30880-30880/com.meshcameratest D/DeferrableSurface: Surface created[total_surfaces=1, used_surfaces=0](androidx.camera.core.SurfaceRequest$2@31839cf}
+2021-09-14 23:12:49.050 30880-30880/com.meshcameratest D/CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2021-09-14 23:12:49.051 30880-30880/com.meshcameratest D/DeferrableSurface: Surface created[total_surfaces=2, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@bac0b3a}
+2021-09-14 23:12:49.052 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Use case androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778 INACTIVE
+2021-09-14 23:12:49.053 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-09-14 23:12:49.053 30880-30880/com.meshcameratest D/CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2021-09-14 23:12:49.053 30880-30880/com.meshcameratest I/CameraView.performance: Session configured in 33 ms! Camera: androidx.camera.lifecycle.LifecycleCamera@59e45fb
+2021-09-14 23:12:49.054 30880-30880/com.meshcameratest I/CameraView: invokeOnInitialized()
+2021-09-14 23:12:49.054 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Use case androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931 ACTIVE
+2021-09-14 23:12:49.054 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-09-14 23:12:49.055 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Use cases [androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778, androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931] now ATTACHED
+2021-09-14 23:12:49.055 30880-30880/com.meshcameratest D/PreviewView: Surface requested by Preview.
+2021-09-14 23:12:49.055 30880-30967/com.meshcameratest D/UseCaseAttachState: All use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931, androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778] for camera: 0
+2021-09-14 23:12:49.055 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931] for camera: 0
+2021-09-14 23:12:49.056 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Resetting Capture Session
+2021-09-14 23:12:49.057 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Releasing session in state INITIALIZED
+2021-09-14 23:12:49.057 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Attempting to force open the camera.
+2021-09-14 23:12:49.057 30880-30967/com.meshcameratest D/CameraStateRegistry: tryOpenCamera(Camera@184af6e[id=0]) [Available Cameras: 1, Already Open: false (Previous state: null)] --> SUCCESS
+2021-09-14 23:12:49.058 30880-30967/com.meshcameratest D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State                 
+    -------------------------------------------------------------------
+    Camera@d62d91[id=3]                          UNKNOWN               
+    Camera@7ff3e46[id=1]                         UNKNOWN               
+    Camera@184af6e[id=0]                         OPENING               
+    Camera@8b1d01e[id=2]                         UNKNOWN               
+    -------------------------------------------------------------------
+    Open count: 1 (Max allowed: 1)
+2021-09-14 23:12:49.058 30880-30880/com.meshcameratest D/PreviewView: Preview transformation info updated. TransformationInfo{cropRect=Rect(0, 0 - 1600, 1200), rotationDegrees=90, targetRotation=0}
+2021-09-14 23:12:49.058 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Opening camera.
+2021-09-14 23:12:49.058 30880-30880/com.meshcameratest D/PreviewTransform: Transformation info set: TransformationInfo{cropRect=Rect(0, 0 - 1600, 1200), rotationDegrees=90, targetRotation=0} 1600x1200 false
+2021-09-14 23:12:49.058 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Transitioning camera internal state: INITIALIZED --> OPENING
+2021-09-14 23:12:49.059 30880-30967/com.meshcameratest D/CameraStateMachine: New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+2021-09-14 23:12:49.059 30880-30967/com.meshcameratest D/CameraStateMachine: Publishing new public camera state CameraState{type=OPENING, error=null}
+2021-09-14 23:12:49.059 30880-30967/com.meshcameratest D/UseCaseAttachState: All use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931, androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778] for camera: 0
+2021-09-14 23:12:49.069 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Use case androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778 INACTIVE
+2021-09-14 23:12:49.069 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931] for camera: 0
+2021-09-14 23:12:49.071 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Use case androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931 ACTIVE
+2021-09-14 23:12:49.071 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931] for camera: 0
+2021-09-14 23:12:49.072 30880-30880/com.meshcameratest D/SurfaceViewImpl: Surface created.
+2021-09-14 23:12:49.072 30880-30880/com.meshcameratest D/SurfaceViewImpl: Surface changed. Size: 1600x1200
+2021-09-14 23:12:49.072 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Use case androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778 ACTIVE
+2021-09-14 23:12:49.072 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931, androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778] for camera: 0
+2021-09-14 23:12:49.074 30880-30880/com.meshcameratest D/SurfaceViewImpl: Surface set on Preview.
+2021-09-14 23:12:49.074 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931, androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778] for camera: 0
+2021-09-14 23:12:49.075 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Issue capture request
+2021-09-14 23:12:49.076 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931, androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778] for camera: 0
+2021-09-14 23:12:49.077 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} CameraDevice.onOpened()
+2021-09-14 23:12:49.077 30880-30967/com.meshcameratest D/Camera2CameraImpl: {Camera@184af6e[id=0]} Transitioning camera internal state: OPENING --> OPENED
+2021-09-14 23:12:49.078 30880-30967/com.meshcameratest D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State                 
+    -------------------------------------------------------------------
+    Camera@d62d91[id=3]                          UNKNOWN               
+    Camera@7ff3e46[id=1]                         UNKNOWN               
+    Camera@184af6e[id=0]                         OPEN                  
+    Camera@8b1d01e[id=2]                         UNKNOWN               
+    -------------------------------------------------------------------
+    Open count: 1 (Max allowed: 1)
+2021-09-14 23:12:49.078 30880-30967/com.meshcameratest D/CameraStateMachine: New public camera state CameraState{type=OPEN, error=null} from OPEN and null
+2021-09-14 23:12:49.078 30880-30967/com.meshcameratest D/CameraStateMachine: Publishing new public camera state CameraState{type=OPEN, error=null}
+2021-09-14 23:12:49.078 30880-30967/com.meshcameratest D/UseCaseAttachState: All use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931, androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778] for camera: 0
+2021-09-14 23:12:49.081 30880-30967/com.meshcameratest D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageAnalysis-85dc53fd-8358-4b9b-9189-ca901a6d3b3569826931, androidx.camera.core.Preview-15796164-6a3a-470a-bcc4-b2835f935baa23863778] for camera: 0
+2021-09-14 23:12:49.082 30880-30967/com.meshcameratest D/SyncCaptureSessionBase: [androidx.camera.camera2.internal.SynchronizedCaptureSessionBaseImpl@41e3bbc] getSurface...done
+2021-09-14 23:12:49.082 30880-30967/com.meshcameratest D/CaptureSession: Opening capture session.
+2021-09-14 23:12:49.086 30880-30967/com.meshcameratest D/DeferrableSurface: New surface in use[total_surfaces=2, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@bac0b3a}
+2021-09-14 23:12:49.086 30880-30967/com.meshcameratest D/DeferrableSurface: use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@bac0b3a
+2021-09-14 23:12:49.086 30880-30967/com.meshcameratest D/DeferrableSurface: New surface in use[total_surfaces=2, used_surfaces=2](androidx.camera.core.SurfaceRequest$2@31839cf}
+2021-09-14 23:12:49.086 30880-30967/com.meshcameratest D/DeferrableSurface: use count+1, useCount=1 androidx.camera.core.SurfaceRequest$2@31839cf
+2021-09-14 23:12:49.269 30880-30967/com.meshcameratest D/CaptureSession: Attempting to send capture request onConfigured
+2021-09-14 23:12:49.269 30880-30967/com.meshcameratest D/CaptureSession: Issuing request for session.
+2021-09-14 23:12:49.271 30880-30967/com.meshcameratest D/CaptureSession: Issuing capture request.
+2021-09-14 23:12:49.272 30880-30900/com.meshcameratest W/Gralloc4: allocator 3.x is not supported
+2021-09-14 23:12:49.272 30880-30900/com.meshcameratest W/Gralloc3: allocator 3.x is not supported
+2021-09-14 23:12:49.273 30880-30967/com.meshcameratest D/CaptureSession: CameraCaptureSession.onConfigured() mState=OPENED
+2021-09-14 23:12:49.274 30880-30967/com.meshcameratest D/CaptureSession: CameraCaptureSession.onReady() OPENED
+2021-09-14 23:12:49.460 30880-30968/com.meshcameratest D/StreamStateObserver: Update Preview stream state to STREAMING
+2021-09-14 23:12:50.060 30880-31018/com.meshcameratest A/.meshcamerates: java_vm_ext.cc:577] JNI DETECTED ERROR IN APPLICATION: can't call java.lang.Object com.meshcameratest.frameprocessors.ExamplePlugin1.callback(androidx.camera.core.ImageProxy, java.lang.Object[]) on instance of com.meshcameratest.frameprocessors.ExamplePlugin2
+    java_vm_ext.cc:577]     in call to CallObjectMethodV
+    java_vm_ext.cc:577]     from void com.mrousavy.camera.CameraView.frameProcessorCallback(androidx.camera.core.ImageProxy)
+2021-09-14 23:12:50.061 30880-30944/com.meshcameratest I/ReactNativeJS: 'Processing Frame:', '640 x 480 Frame'
+2021-09-14 23:12:50.201 30880-30944/com.meshcameratest I/ReactNativeJS: 'example1Result:', { result: 'Example1 Done' }
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655] Runtime aborting...
+    runtime.cc:655] Dumping all threads without mutator lock held
+    runtime.cc:655] All threads:
+    runtime.cc:655] DALVIK THREADS (50):
+    runtime.cc:655] "pool-5-thread-1" prio=5 tid=50 Runnable
+    runtime.cc:655]   | group="" sCount=0 dsCount=0 flags=0 obj=0x12e83810 self=0x728809d290
+    runtime.cc:655]   | sysTid=31018 nice=0 cgrp=default sched=0/0 handle=0x7080144cc0
+    runtime.cc:655]   | state=R schedstat=( 17519633 294429 23 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x7080041000-0x7080043000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes= "abort lock" "mutator lock"(shared held)
+    runtime.cc:655]   native: #00 pc 000000000049ee3c  /apex/com.android.art/lib64/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, BacktraceMap*, char const*, art::ArtMethod*, void*, bool)+140)
+    runtime.cc:655]   native: #01 pc 00000000005abff8  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, bool, BacktraceMap*, bool) const+376)
+    runtime.cc:655]   native: #02 pc 00000000005c9130  /apex/com.android.art/lib64/libart.so (art::DumpCheckpoint::Run(art::Thread*)+924)
+    runtime.cc:655]   native: #03 pc 00000000005c3070  /apex/com.android.art/lib64/libart.so (art::ThreadList::RunCheckpoint(art::Closure*, art::Closure*)+528)
+    runtime.cc:655]   native: #04 pc 00000000005c223c  /apex/com.android.art/lib64/libart.so (art::ThreadList::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, bool)+1920)
+    runtime.cc:655]   native: #05 pc 000000000055cec4  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1864)
+    runtime.cc:655]   native: #06 pc 0000000000013978  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+76)
+    runtime.cc:655]   native: #07 pc 0000000000012fa4  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+320)
+    runtime.cc:655]   native: #08 pc 00000000003851b8  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+2572)
+    runtime.cc:655]   native: #09 pc 0000000000385230  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, std::__va_list)+108)
+    runtime.cc:655]   native: #10 pc 0000000000376f14  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::ScopedCheck::AbortF(char const*, ...)+144)
+    runtime.cc:655]   native: #11 pc 000000000037a52c  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::ScopedCheck::CheckMethodAndSig(art::ScopedObjectAccess&, _jobject*, _jclass*, _jmethodID*, art::Primitive::Type, art::InvokeType)+1620)
+    runtime.cc:655]   native: #12 pc 0000000000378da0  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodV(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, std::__va_list, art::Primitive::Type, art::InvokeType)+764)
+    runtime.cc:655]   native: #13 pc 000000000036687c  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallObjectMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+72)
+    runtime.cc:655]   native: #14 pc 000000000005cb04  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (_JNIEnv::CallObjectMethod(_jobject*, _jmethodID*, ...)+188)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #15 pc 00000000000823a8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::JMethod<_jobject* (facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::JArrayClass<_jobject*> >)>::operator()(facebook::jni::alias_ref<_jobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::JArrayClass<_jobject*> >) const+192)
+    runtime.cc:655]   native: #16 pc 0000000000081ff4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (vision::FrameProcessorPlugin::callback(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::JArrayClass<_jobject*> >)+260)
+    runtime.cc:655]   native: #17 pc 00000000000724f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #18 pc 00000000000722f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #19 pc 000000000007223c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #20 pc 00000000000721a0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #21 pc 0000000000070fb4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #22 pc 000000000003ea90  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::HFContext::func(void*, hermes::vm::Runtime*, hermes::vm::NativeArgs)+324)
+    runtime.cc:655]   native: #23 pc 000000000004d6fc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #24 pc 0000000000068a88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #25 pc 000000000006c4f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #26 pc 0000000000069d74  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #27 pc 000000000004d9e4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #28 pc 00000000000350d8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::call(facebook::jsi::Function const&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)+652)
+    runtime.cc:655]   native: #29 pc 000000000007e7bc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::call(facebook::jsi::Runtime&, facebook::jsi::Value const*, unsigned long) const+112)
+    runtime.cc:655]   native: #30 pc 0000000000102fcc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #31 pc 0000000000102da0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #32 pc 0000000000102ce4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #33 pc 0000000000102c44  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #34 pc 0000000000101af8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #35 pc 000000000003ea90  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::HFContext::func(void*, hermes::vm::Runtime*, hermes::vm::NativeArgs)+324)
+    runtime.cc:655]   native: #36 pc 000000000004d6fc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #37 pc 0000000000068a88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #38 pc 000000000006c4f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #39 pc 0000000000069d74  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #40 pc 000000000004d9e4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #41 pc 00000000000350d8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::call(facebook::jsi::Function const&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)+652)
+    runtime.cc:655]   native: #42 pc 000000000007e7bc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::call(facebook::jsi::Runtime&, facebook::jsi::Value const*, unsigned long) const+112)
+    runtime.cc:655]   native: #43 pc 0000000000102fcc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #44 pc 0000000000102da0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #45 pc 0000000000102ce4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #46 pc 0000000000102c44  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #47 pc 0000000000101af8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #48 pc 000000000003ea90  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::HFContext::func(void*, hermes::vm::Runtime*, hermes::vm::NativeArgs)+324)
+    runtime.cc:655]   native: #49 pc 000000000004d6fc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #50 pc 0000000000068a88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #51 pc 000000000006c4f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #52 pc 0000000000069d74  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #53 pc 000000000004d9e4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #54 pc 00000000000350d8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::call(facebook::jsi::Function const&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)+652)
+    runtime.cc:655]   native: #55 pc 0000000000080eb0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::callWithThis(facebook::jsi::Runtime&, facebook::jsi::Object const&, facebook::jsi::Value const*, unsigned long) const+128)
+    runtime.cc:655]   native: #56 pc 0000000000102f28  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #57 pc 0000000000102da0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #58 pc 0000000000102ce4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #59 pc 0000000000102c44  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #60 pc 0000000000101af8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #61 pc 000000000003ea90  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::HFContext::func(void*, hermes::vm::Runtime*, hermes::vm::NativeArgs)+324)
+    runtime.cc:655]   native: #62 pc 000000000004d6fc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #63 pc 00000000000350d8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::call(facebook::jsi::Function const&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)+652)
+    runtime.cc:655]   native: #64 pc 0000000000080eb0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::callWithThis(facebook::jsi::Runtime&, facebook::jsi::Object const&, facebook::jsi::Value const*, unsigned long) const+128)
+    runtime.cc:655]   native: #65 pc 0000000000080ddc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::callWithThis(facebook::jsi::Runtime&, facebook::jsi::Object const&, std::initializer_list<facebook::jsi::Value>) const+120)
+    runtime.cc:655]   native: #66 pc 000000000007fb88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Value facebook::jsi::Function::callWithThis<facebook::jsi::Object>(facebook::jsi::Runtime&, facebook::jsi::Object const&, facebook::jsi::Object&&) const+168)
+    runtime.cc:655]   native: #67 pc 000000000006eea0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #68 pc 000000000006edb8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #69 pc 000000000006ed3c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #70 pc 000000000006ecf0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #71 pc 000000000006dc4c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #72 pc 0000000000084924  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #73 pc 0000000000083668  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (std::__ndk1::function<void (facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>)>::operator()(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>) const+48)
+    runtime.cc:655]   native: #74 pc 00000000000832b0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (vision::CameraView::frameProcessorCallback(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&)+124)
+    runtime.cc:655]   native: #75 pc 000000000008468c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::detail::MethodWrapper<void (vision::CameraView::*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&), &(vision::CameraView::frameProcessorCallback(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&)), vision::CameraView, void, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&>::dispatch(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&)+196)
+    runtime.cc:655]   native: #76 pc 0000000000084718  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::detail::CallWithJniConversions<void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&), void, facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&>::call(facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*, facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*, void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&))+72)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #77 pc 000000000008450c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::detail::FunctionWrapper<void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&), facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*, void, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&>::call(_JNIEnv*, _jobject*, facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*, void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&))+52)
+    runtime.cc:655]   native: #78 pc 00000000000835f0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::detail::MethodWrapper<void (vision::CameraView::*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&), &(vision::CameraView::frameProcessorCallback(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&)), vision::CameraView, void, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&>::call(_JNIEnv*, _jobject*, facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*)+44)
+    runtime.cc:655]   native: #79 pc 000000000013ced4  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+148)
+    runtime.cc:655]   native: #80 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #81 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #82 pc 000000000031831c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376)
+    runtime.cc:655]   native: #83 pc 000000000030e648  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+996)
+    runtime.cc:655]   native: #84 pc 000000000067ebc0  /apex/com.android.art/lib64/libart.so (MterpInvokeDirect+576)
+    runtime.cc:655]   native: #85 pc 000000000012d914  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_direct+20)
+    runtime.cc:655]   native: #86 pc 00000000000118de  [anon:dalvik-classes2.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk!classes2.dex] (com.mrousavy.camera.CameraView.configureSession$lambda-7$lambda-6+86)
+    runtime.cc:655]   native: #87 pc 000000000067f740  /apex/com.android.art/lib64/libart.so (MterpInvokeStatic+1224)
+    runtime.cc:655]   native: #88 pc 000000000012d994  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_static+20)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #89 pc 00000000000119e0  [anon:dalvik-classes2.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk!classes2.dex] (com.mrousavy.camera.CameraView.lambda$cqtIchEZdTZaV3R0UUrDpVbB1Es)
+    runtime.cc:655]   native: #90 pc 000000000067f740  /apex/com.android.art/lib64/libart.so (MterpInvokeStatic+1224)
+    runtime.cc:655]   native: #91 pc 000000000012d994  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_static+20)
+    runtime.cc:655]   native: #92 pc 000000000000b428  [anon:dalvik-classes2.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk!classes2.dex] (com.mrousavy.camera.-$$Lambda$CameraView$cqtIchEZdTZaV3R0UUrDpVbB1Es.analyze+4)
+    runtime.cc:655]   native: #93 pc 000000000067e21c  /apex/com.android.art/lib64/libart.so (MterpInvokeInterface+1808)
+    runtime.cc:655]   native: #94 pc 000000000012da14  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_interface+20)
+    runtime.cc:655]   native: #95 pc 00000000001ca7d2  [anon:dalvik-classes.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk] (androidx.camera.core.ImageAnalysis.lambda$setAnalyzer$2$ImageAnalysis+26)
+    runtime.cc:655]   native: #96 pc 000000000067c7e4  /apex/com.android.art/lib64/libart.so (MterpInvokeVirtual+1520)
+    runtime.cc:655]   native: #97 pc 000000000012d814  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_virtual+20)
+    runtime.cc:655]   native: #98 pc 00000000001c4b2c  [anon:dalvik-classes.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk] (androidx.camera.core.-$$Lambda$ImageAnalysis$-wcArnbkVmqkAHxpJ0VOR9b2w0Q.analyze+8)
+    runtime.cc:655]   native: #99 pc 000000000067e21c  /apex/com.android.art/lib64/libart.so (MterpInvokeInterface+1808)
+    runtime.cc:655]   native: #100 pc 000000000012da14  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_interface+20)
+    runtime.cc:655]   native: #101 pc 00000000001c9e6a  [anon:dalvik-classes.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk] (androidx.camera.core.ImageAnalysisAbstractAnalyzer.lambda$analyzeImage$0$ImageAnalysisAbstractAnalyzer+74)
+    runtime.cc:655]   native: #102 pc 000000000067c7e4  /apex/com.android.art/lib64/libart.so (MterpInvokeVirtual+1520)
+    runtime.cc:655]   native: #103 pc 000000000012d814  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_virtual+20)
+    runtime.cc:655]   native: #104 pc 00000000001c4c18  [anon:dalvik-classes.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk] (androidx.camera.core.-$$Lambda$ImageAnalysisAbstractAnalyzer$8nmjUxCmaK9ClOx3NHAdwtp6S3w.run+20)
+    runtime.cc:655]   native: #105 pc 000000000067e21c  /apex/com.android.art/lib64/libart.so (MterpInvokeInterface+1808)
+    runtime.cc:655]   native: #106 pc 000000000012da14  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_interface+20)
+    runtime.cc:655]   native: #107 pc 00000000001f9e6e  /apex/com.android.art/javalib/core-oj.jar (java.util.concurrent.ThreadPoolExecutor.runWorker+158)
+    runtime.cc:655]   native: #108 pc 000000000067c7e4  /apex/com.android.art/lib64/libart.so (MterpInvokeVirtual+1520)
+    runtime.cc:655]   native: #109 pc 000000000012d814  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_virtual+20)
+    runtime.cc:655]   native: #110 pc 00000000001f8c30  /apex/com.android.art/javalib/core-oj.jar (java.util.concurrent.ThreadPoolExecutor$Worker.run+4)
+    runtime.cc:655]   native: #111 pc 000000000067e21c  /apex/com.android.art/lib64/libart.so (MterpInvokeInterface+1808)
+    runtime.cc:655]   native: #112 pc 000000000012da14  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_interface+20)
+    runtime.cc:655]   native: #113 pc 00000000000eb7d0  /apex/com.android.art/javalib/core-oj.jar (java.lang.Thread.run+8)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #114 pc 0000000000305c44  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.6432830707213048161)+268)
+    runtime.cc:655]   native: #115 pc 000000000066b24c  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780)
+    runtime.cc:655]   native: #116 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88)
+    runtime.cc:655]   native: #117 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #118 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #119 pc 0000000000554cbc  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460)
+    runtime.cc:655]   native: #120 pc 00000000005a4058  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308)
+    runtime.cc:655]   native: #121 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #122 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   at com.mrousavy.camera.CameraView.frameProcessorCallback(Native method)
+    runtime.cc:655]   at com.mrousavy.camera.CameraView.configureSession$lambda-7$lambda-6(CameraView.kt:433)
+    runtime.cc:655]   at com.mrousavy.camera.CameraView.lambda$cqtIchEZdTZaV3R0UUrDpVbB1Es(CameraView.kt:-1)
+    runtime.cc:655]   at com.mrousavy.camera.-$$Lambda$CameraView$cqtIchEZdTZaV3R0UUrDpVbB1Es.analyze(lambda:-1)
+    runtime.cc:655]   at androidx.camera.core.ImageAnalysis.lambda$setAnalyzer$2$ImageAnalysis(ImageAnalysis.java:421)
+    runtime.cc:655]   at androidx.camera.core.-$$Lambda$ImageAnalysis$-wcArnbkVmqkAHxpJ0VOR9b2w0Q.analyze(lambda:-1)
+    runtime.cc:655]   at androidx.camera.core.ImageAnalysisAbstractAnalyzer.lambda$analyzeImage$0$ImageAnalysisAbstractAnalyzer(ImageAnalysisAbstractAnalyzer.java:137)
+    runtime.cc:655]   at androidx.camera.core.-$$Lambda$ImageAnalysisAbstractAnalyzer$8nmjUxCmaK9ClOx3NHAdwtp6S3w.run(lambda:-1)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "main" prio=7 tid=1 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x716d36a8 self=0x7288025380
+    runtime.cc:655]   | sysTid=30880 nice=-4 cgrp=default sched=0/0 handle=0x73ae8c34f8
+    runtime.cc:655]   | state=S schedstat=( 729542404 27371622 672 ) utm=63 stm=9 core=6 HZ=100
+    runtime.cc:655]   | stack=0x7fe68ff000-0x7fe6901000 stackSize=8192KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 0000000000378ca4  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodV(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, std::__va_list, art::Primitive::Type, art::InvokeType)+512)
+    runtime.cc:655]   native: #03 pc 000000000036687c  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallObjectMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+72)
+    runtime.cc:655]   native: #04 pc 0000000000004040  /apex/com.android.art/lib64/libnativehelper.so (_JNIEnv::CallObjectMethod(_jobject*, _jmethodID*, ...)+124)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #05 pc 00000000000e7250  /system/lib64/libandroid_runtime.so (android::NativeDisplayEventReceiver::dispatchVsync(long, unsigned long, unsigned int)+48)
+    runtime.cc:655]   native: #06 pc 000000000008c8c4  /system/lib64/libgui.so (android::DisplayEventDispatcher::handleEvent(int, int, void*)+160)
+    runtime.cc:655]   native: #07 pc 0000000000019dac  /system/lib64/libutils.so (android::Looper::pollInner(int)+916)
+    runtime.cc:655]   native: #08 pc 00000000000199b0  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+112)
+    runtime.cc:655]   native: #09 pc 0000000000110f80  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+44)
+    runtime.cc:655]   at android.os.MessageQueue.nativePollOnce(Native method)
+    runtime.cc:655]   at android.os.MessageQueue.next(MessageQueue.java:335)
+    runtime.cc:655]   at android.os.Looper.loop(Looper.java:183)
+    runtime.cc:655]   at android.app.ActivityThread.main(ActivityThread.java:7664)
+    runtime.cc:655]   at java.lang.reflect.Method.invoke(Native method)
+    runtime.cc:655]   at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+    runtime.cc:655]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+    runtime.cc:655] 
+    runtime.cc:655] "Runtime worker thread 0" prio=10 tid=2 Native (still starting up)
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x728802c2c0
+    runtime.cc:655]   | sysTid=30886 nice=-20 cgrp=default sched=0/0 handle=0x73ad415d00
+    runtime.cc:655]   | state=S schedstat=( 336299 0 12 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x73ad407000-0x73ad409000 stackSize=63KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 00000000005cae58  /apex/com.android.art/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+120)
+    runtime.cc:655]   native: #03 pc 00000000005ca0bc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Run()+80)
+    runtime.cc:655]   native: #04 pc 00000000005c9bcc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+192)
+    runtime.cc:655]   native: #05 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #06 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Runtime worker thread 1" prio=10 tid=3 Native (still starting up)
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x7288020010
+    runtime.cc:655]   | sysTid=30887 nice=-20 cgrp=default sched=0/0 handle=0x73ab9f6d00
+    runtime.cc:655]   | state=S schedstat=( 143021 10729 5 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x73ab9e8000-0x73ab9ea000 stackSize=63KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 00000000005cae58  /apex/com.android.art/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+120)
+    runtime.cc:655]   native: #03 pc 00000000005ca0bc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Run()+80)
+    runtime.cc:655]   native: #04 pc 00000000005c9bcc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+192)
+    runtime.cc:655]   native: #05 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #06 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Runtime worker thread 2" prio=10 tid=4 Native (still starting up)
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x728802fa60
+    runtime.cc:655]   | sysTid=30888 nice=-20 cgrp=default sched=0/0 handle=0x71079f9d00
+    runtime.cc:655]   | state=S schedstat=( 141303 8333 6 ) utm=0 stm=0 core=7 HZ=100
+    runtime.cc:655]   | stack=0x71079eb000-0x71079ed000 stackSize=63KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 00000000005cae58  /apex/com.android.art/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+120)
+    runtime.cc:655]   native: #03 pc 00000000005ca0bc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Run()+80)
+    runtime.cc:655]   native: #04 pc 00000000005c9bcc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+192)
+    runtime.cc:655]   native: #05 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #06 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Runtime worker thread 3" prio=10 tid=5 Native (still starting up)
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x7288028b20
+    runtime.cc:655]   | sysTid=30889 nice=-20 cgrp=default sched=0/0 handle=0x71079e8d00
+    runtime.cc:655]   | state=S schedstat=( 108230 47135 4 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x71079da000-0x71079dc000 stackSize=63KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 00000000005cae58  /apex/com.android.art/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+120)
+    runtime.cc:655]   native: #03 pc 00000000005ca0bc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Run()+80)
+    runtime.cc:655]   native: #04 pc 00000000005c9bcc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+192)
+    runtime.cc:655]   native: #05 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #06 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Signal Catcher" prio=10 tid=6 WaitingInMainSignalCatcherLoop
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0228 self=0x728802a6f0
+    runtime.cc:655]   | sysTid=30890 nice=-20 cgrp=default sched=0/0 handle=0x71059cacc0
+    runtime.cc:655]   | state=S schedstat=( 381354 0 1 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x71058d3000-0x71058d5000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009b978  /apex/com.android.runtime/lib64/bionic/libc.so (__rt_sigtimedwait+8)
+    runtime.cc:655]   native: #01 pc 000000000005cc78  /apex/com.android.runtime/lib64/bionic/libc.so (sigwait+68)
+    runtime.cc:655]   native: #02 pc 0000000000582fb8  /apex/com.android.art/lib64/libart.so (art::SignalCatcher::WaitForSignal(art::Thread*, art::SignalSet&)+428)
+    runtime.cc:655]   native: #03 pc 0000000000581bb0  /apex/com.android.art/lib64/libart.so (art::SignalCatcher::Run(void*)+272)
+    runtime.cc:655]   native: #04 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #05 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "perfetto_hprof_listener" prio=10 tid=7 Native (still starting up)
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x0 self=0x7288026f50
+    runtime.cc:655]   | sysTid=30891 nice=-20 cgrp=default sched=0/0 handle=0x71048c3cc0
+    runtime.cc:655]   | state=S schedstat=( 248856 0 10 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x71047cc000-0x71047ce000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009acf4  /apex/com.android.runtime/lib64/bionic/libc.so (read+4)
+    runtime.cc:655]   native: #01 pc 00000000000180bc  /apex/com.android.art/lib64/libperfetto_hprof.so (void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, ArtPlugin_Initialize::$_29> >(void*)+280)
+    runtime.cc:655]   native: #02 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #03 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "ADB-JDWP Connection Control Thread" prio=10 tid=8 WaitingInMainDebuggerLoop
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec02a0 self=0x72880237b0
+    runtime.cc:655]   | sysTid=30892 nice=-20 cgrp=default sched=0/0 handle=0x71047bccc0
+    runtime.cc:655]   | state=S schedstat=( 1321460 8542 16 ) utm=0 stm=0 core=6 HZ=100
+    runtime.cc:655]   | stack=0x71046c5000-0x71046c7000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009c038  /apex/com.android.runtime/lib64/bionic/libc.so (__ppoll+8)
+    runtime.cc:655]   native: #01 pc 000000000005a240  /apex/com.android.runtime/lib64/bionic/libc.so (poll+92)
+    runtime.cc:655]   native: #02 pc 0000000000009efc  /apex/com.android.art/lib64/libadbconnection.so (adbconnection::AdbConnectionState::RunPollLoop(art::Thread*)+828)
+    runtime.cc:655]   native: #03 pc 0000000000008578  /apex/com.android.art/lib64/libadbconnection.so (adbconnection::CallbackFunction(void*)+1508)
+    runtime.cc:655]   native: #04 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #05 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Jit thread pool worker thread 0" prio=5 tid=9 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0318 self=0x72880369a0
+    runtime.cc:655]   | sysTid=30893 nice=0 cgrp=default sched=0/0 handle=0x70b8e78d00
+    runtime.cc:655]   | state=S schedstat=( 212034375 12055937 320 ) utm=17 stm=2 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70b8d7a000-0x70b8d7c000 stackSize=1023KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 00000000005cae58  /apex/com.android.art/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+120)
+    runtime.cc:655]   native: #03 pc 00000000005ca0fc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Run()+144)
+    runtime.cc:655]   native: #04 pc 00000000005c9bcc  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+192)
+    runtime.cc:655]   native: #05 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #06 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655] "HeapTaskDaemon" prio=5 tid=10 WaitingForTaskProcessor
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec7ef8 self=0x7288034dd0
+    runtime.cc:655]   | sysTid=30894 nice=4 cgrp=default sched=0/0 handle=0x70b8d73cc0
+    runtime.cc:655]   | state=S schedstat=( 37618539 886720 18 ) utm=2 stm=0 core=7 HZ=100
+    runtime.cc:655]   | stack=0x70b8c70000-0x70b8c72000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000001afcfc  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::TimedWait(art::Thread*, long, int)+172)
+    runtime.cc:655]   native: #02 pc 00000000002e52d4  /apex/com.android.art/lib64/libart.so (art::gc::TaskProcessor::GetTask(art::Thread*)+512)
+    runtime.cc:655]   native: #03 pc 00000000002e5c1c  /apex/com.android.art/lib64/libart.so (art::gc::TaskProcessor::RunAllTasks(art::Thread*)+92)
+    runtime.cc:655]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+    runtime.cc:655]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:531)
+    runtime.cc:655]   at java.lang.Daemons$Daemon.run(Daemons.java:139)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "ReferenceQueueDaemon" prio=5 tid=11 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0390 self=0x7288038570
+    runtime.cc:655]   | sysTid=30895 nice=4 cgrp=default sched=0/0 handle=0x70b6c69cc0
+    runtime.cc:655]   | state=S schedstat=( 1091040 53021 12 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70b6b66000-0x70b6b68000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 000000000049a038  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+544)
+    runtime.cc:655]   native: #03 pc 000000000049b88c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+280)
+    runtime.cc:655]   at java.lang.Object.wait(Native method)
+    runtime.cc:655]   - waiting on <0x0a91a5a1> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+    runtime.cc:655]   at java.lang.Object.wait(Object.java:442)
+    runtime.cc:655]   at java.lang.Object.wait(Object.java:568)
+    runtime.cc:655]   at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:217)
+    runtime.cc:655]   - locked <0x0a91a5a1> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+    runtime.cc:655]   at java.lang.Daemons$Daemon.run(Daemons.java:139)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "FinalizerDaemon" prio=5 tid=12 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0408 self=0x728803a140
+    runtime.cc:655]   | sysTid=30896 nice=4 cgrp=default sched=0/0 handle=0x70b6b5fcc0
+    runtime.cc:655]   | state=S schedstat=( 995158 0 7 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70b6a5c000-0x70b6a5e000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 000000000049a038  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+544)
+    runtime.cc:655]   native: #03 pc 000000000049b88c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+280)
+    runtime.cc:655]   at java.lang.Object.wait(Native method)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   - waiting on <0x0c00c3c6> (a java.lang.Object)
+    runtime.cc:655]   at java.lang.Object.wait(Object.java:442)
+    runtime.cc:655]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:190)
+    runtime.cc:655]   - locked <0x0c00c3c6> (a java.lang.Object)
+    runtime.cc:655]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:211)
+    runtime.cc:655]   at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:273)
+    runtime.cc:655]   at java.lang.Daemons$Daemon.run(Daemons.java:139)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "FinalizerWatchdogDaemon" prio=5 tid=13 Sleeping
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0480 self=0x7288041080
+    runtime.cc:655]   | sysTid=30897 nice=4 cgrp=default sched=0/0 handle=0x70b4a55cc0
+    runtime.cc:655]   | state=S schedstat=( 305261 0 4 ) utm=0 stm=0 core=6 HZ=100
+    runtime.cc:655]   | stack=0x70b4952000-0x70b4954000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000001afcfc  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::TimedWait(art::Thread*, long, int)+172)
+    runtime.cc:655]   native: #02 pc 000000000049a04c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+564)
+    runtime.cc:655]   native: #03 pc 000000000049b88c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+280)
+    runtime.cc:655]   at java.lang.Thread.sleep(Native method)
+    runtime.cc:655]   - sleeping on <0x091ddf87> (a java.lang.Object)
+    runtime.cc:655]   at java.lang.Thread.sleep(Thread.java:442)
+    runtime.cc:655]   - locked <0x091ddf87> (a java.lang.Object)
+    runtime.cc:655]   at java.lang.Thread.sleep(Thread.java:358)
+    runtime.cc:655]   at java.lang.Daemons$FinalizerWatchdogDaemon.sleepForNanos(Daemons.java:390)
+    runtime.cc:655]   at java.lang.Daemons$FinalizerWatchdogDaemon.waitForFinalization(Daemons.java:419)
+    runtime.cc:655]   at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:325)
+    runtime.cc:655]   at java.lang.Daemons$Daemon.run(Daemons.java:139)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "Binder:30880_1" prio=5 tid=14 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec04f8 self=0x728803bd10
+    runtime.cc:655]   | sysTid=30898 nice=0 cgrp=default sched=0/0 handle=0x70b384dcc0
+    runtime.cc:655]   | state=S schedstat=( 444167 13907 12 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70b3756000-0x70b3758000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009af74  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+    runtime.cc:655]   native: #01 pc 0000000000057c60  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+    runtime.cc:655]   native: #02 pc 0000000000051ae4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+    runtime.cc:655]   native: #03 pc 0000000000051cd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+    runtime.cc:655]   native: #04 pc 0000000000052590  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+    runtime.cc:655]   native: #05 pc 0000000000078678  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+24)
+    runtime.cc:655]   native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+    runtime.cc:655]   native: #07 pc 00000000000a0be0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+    runtime.cc:655]   native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+    runtime.cc:655]   native: #09 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #10 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Binder:30880_2" prio=5 tid=15 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0570 self=0x728803f4b0
+    runtime.cc:655]   | sysTid=30899 nice=0 cgrp=default sched=0/0 handle=0x70b274fcc0
+    runtime.cc:655]   | state=S schedstat=( 7130365 180729 16 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70b2658000-0x70b265a000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009af74  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+4)
+    runtime.cc:655]   native: #01 pc 0000000000057c60  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156)
+    runtime.cc:655]   native: #02 pc 0000000000051ae4  /system/lib64/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+296)
+    runtime.cc:655]   native: #03 pc 0000000000051cd4  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+24)
+    runtime.cc:655]   native: #04 pc 0000000000052590  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+    runtime.cc:655]   native: #05 pc 0000000000078678  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+24)
+    runtime.cc:655]   native: #06 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+    runtime.cc:655]   native: #07 pc 00000000000a0be0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+    runtime.cc:655]   native: #08 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+    runtime.cc:655]   native: #09 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #10 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Binder:30880_3" prio=5 tid=16 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec05e8 self=0x728803d8e0
+    runtime.cc:655]   | sysTid=30900 nice=0 cgrp=default sched=0/0 handle=0x70b1651cc0
+    runtime.cc:655]   | state=S schedstat=( 8279584 2520106 33 ) utm=0 stm=0 core=7 HZ=100
+    runtime.cc:655]   | stack=0x70b155a000-0x70b155c000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 0000000000378ca4  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodV(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, std::__va_list, art::Primitive::Type, art::InvokeType)+512)
+    runtime.cc:655]   native: #03 pc 00000000003669d8  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+72)
+    runtime.cc:655]   native: #04 pc 000000000009b698  /system/lib64/libandroid_runtime.so (_JNIEnv::CallBooleanMethod(_jobject*, _jmethodID*, ...)+124)
+    runtime.cc:655]   native: #05 pc 00000000001225a4  /system/lib64/libandroid_runtime.so (JavaBBinder::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+156)
+    runtime.cc:655]   native: #06 pc 000000000004982c  /system/lib64/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+232)
+    runtime.cc:655]   native: #07 pc 0000000000052210  /system/lib64/libbinder.so (android::IPCThreadState::executeCommand(int)+1032)
+    runtime.cc:655]   native: #08 pc 0000000000051d58  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+156)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #09 pc 0000000000052590  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+    runtime.cc:655]   native: #10 pc 0000000000078678  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+24)
+    runtime.cc:655]   native: #11 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+    runtime.cc:655]   native: #12 pc 00000000000a0be0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+    runtime.cc:655]   native: #13 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+    runtime.cc:655]   native: #14 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #15 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Binder:30880_4" prio=5 tid=17 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0660 self=0x7288044820
+    runtime.cc:655]   | sysTid=30901 nice=0 cgrp=default sched=0/0 handle=0x70b0553cc0
+    runtime.cc:655]   | state=S schedstat=( 23362601 5529165 82 ) utm=1 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70b045c000-0x70b045e000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 0000000000378ca4  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodV(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, std::__va_list, art::Primitive::Type, art::InvokeType)+512)
+    runtime.cc:655]   native: #03 pc 00000000003694b8  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+76)
+    runtime.cc:655]   native: #04 pc 000000000003713c  /system/lib64/libmedia_jni.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+124)
+    runtime.cc:655]   native: #05 pc 000000000003ae58  /system/lib64/libmedia_jni.so (JNIImageReaderContext::onFrameAvailable(android::BufferItem const&)+64)
+    runtime.cc:655]   native: #06 pc 00000000000891d4  /system/lib64/libgui.so (android::ConsumerBase::onFrameAvailable(android::BufferItem const&)+172)
+    runtime.cc:655]   native: #07 pc 00000000000689e0  /system/lib64/libgui.so (android::BufferQueue::ProxyConsumerListener::onFrameAvailable(android::BufferItem const&)+104)
+    runtime.cc:655]   native: #08 pc 0000000000071ff8  /system/lib64/libgui.so (android::BufferQueueProducer::queueBuffer(int, android::IGraphicBufferProducer::QueueBufferInput const&, android::IGraphicBufferProducer::QueueBufferOutput*)+1936)
+    runtime.cc:655]   native: #09 pc 000000000009693c  /system/lib64/libgui.so (android::BnGraphicBufferProducer::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+1608)
+    runtime.cc:655]   native: #10 pc 000000000004982c  /system/lib64/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+232)
+    runtime.cc:655]   native: #11 pc 0000000000052210  /system/lib64/libbinder.so (android::IPCThreadState::executeCommand(int)+1032)
+    runtime.cc:655]   native: #12 pc 0000000000051d58  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+156)
+    runtime.cc:655]   native: #13 pc 0000000000052590  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+60)
+    runtime.cc:655]   native: #14 pc 0000000000078678  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+24)
+    runtime.cc:655]   native: #15 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #16 pc 00000000000a0be0  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+144)
+    runtime.cc:655]   native: #17 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+    runtime.cc:655]   native: #18 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #19 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "Profile Saver" prio=5 tid=18 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec06d8 self=0x7288047fc0
+    runtime.cc:655]   | sysTid=30902 nice=9 cgrp=default sched=0/0 handle=0x70ae39ccc0
+    runtime.cc:655]   | state=S schedstat=( 456717 421042 8 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70ae2a5000-0x70ae2a7000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000001afcfc  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::TimedWait(art::Thread*, long, int)+172)
+    runtime.cc:655]   native: #02 pc 0000000000353b3c  /apex/com.android.art/lib64/libart.so (art::ProfileSaver::Run()+188)
+    runtime.cc:655]   native: #03 pc 00000000003589f0  /apex/com.android.art/lib64/libart.so (art::ProfileSaver::RunProfileSaverThread(void*)+180)
+    runtime.cc:655]   native: #04 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #05 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "AsyncTask #2" prio=4 tid=20 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0818 self=0x7288042c50
+    runtime.cc:655]   | sysTid=30914 nice=10 cgrp=default sched=0/0 handle=0x70ac12ecc0
+    runtime.cc:655]   | state=S schedstat=( 18834377 2798281 54 ) utm=1 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70ac02b000-0x70ac02d000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000005a25c0  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+480)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:459)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "process reaper" prio=10 tid=21 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec08e0 self=0x7288049b90
+    runtime.cc:655]   | sysTid=30915 nice=-8 cgrp=default sched=0/0 handle=0x70ab024cc0
+    runtime.cc:655]   | state=S schedstat=( 719062 2519271 6 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70aaf19000-0x70aaf1b000 stackSize=1075KB
+    runtime.cc:655]   | held mutexes=
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "FlipperEventBaseThread" prio=4 tid=22 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec09a8 self=0x728804d330
+    runtime.cc:655]   | sysTid=30917 nice=10 cgrp=default sched=0/0 handle=0x70a9f12cc0
+    runtime.cc:655]   | state=S schedstat=( 13008074 5453853 37 ) utm=0 stm=0 core=6 HZ=100
+    runtime.cc:655]   | stack=0x70a9e0f000-0x70a9e11000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009bf38  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8)
+    runtime.cc:655]   native: #01 pc 0000000000021e10  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libevent_core-2.1.so (???)
+    runtime.cc:655]   native: #02 pc 00000000000170cc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libevent_core-2.1.so (event_base_loop+708)
+    runtime.cc:655]   native: #03 pc 0000000000233c94  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libflipper.so (folly::EventBase::loopBody(int, bool)+688)
+    runtime.cc:655]   native: #04 pc 0000000000234cb8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libflipper.so (folly::EventBase::loopForever()+36)
+    runtime.cc:655]   native: #05 pc 000000000018817c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libflipper.so (???)
+    runtime.cc:655]   native: #06 pc 000000000013ced4  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+148)
+    runtime.cc:655]   native: #07 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #08 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #09 pc 000000000031831c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376)
+    runtime.cc:655]   native: #10 pc 000000000030e648  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+996)
+    runtime.cc:655]   native: #11 pc 000000000067c544  /apex/com.android.art/lib64/libart.so (MterpInvokeVirtual+848)
+    runtime.cc:655]   native: #12 pc 000000000012d814  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_virtual+20)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #13 pc 000000000029006c  [anon:dalvik-classes.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk] (com.facebook.flipper.android.FlipperThread.run+40)
+    runtime.cc:655]   native: #14 pc 0000000000305c44  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.6432830707213048161)+268)
+    runtime.cc:655]   native: #15 pc 000000000066b24c  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780)
+    runtime.cc:655]   native: #16 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88)
+    runtime.cc:655]   native: #17 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #18 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #19 pc 0000000000554cbc  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460)
+    runtime.cc:655]   native: #20 pc 00000000005a4058  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308)
+    runtime.cc:655]   native: #21 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #22 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   at com.facebook.flipper.android.EventBase.loopForever(Native method)
+    runtime.cc:655]   at com.facebook.flipper.android.FlipperThread.run(FlipperThread.java:31)
+    runtime.cc:655] 
+    runtime.cc:655] "FlipperConnectionThread" prio=4 tid=23 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0d18 self=0x728804b760
+    runtime.cc:655]   | sysTid=30918 nice=10 cgrp=default sched=0/0 handle=0x70a8e08cc0
+    runtime.cc:655]   | state=S schedstat=( 4236874 1245521 27 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70a8d05000-0x70a8d07000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009bf38  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8)
+    runtime.cc:655]   native: #01 pc 0000000000021e10  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libevent_core-2.1.so (???)
+    runtime.cc:655]   native: #02 pc 00000000000170cc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libevent_core-2.1.so (event_base_loop+708)
+    runtime.cc:655]   native: #03 pc 0000000000233c94  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libflipper.so (folly::EventBase::loopBody(int, bool)+688)
+    runtime.cc:655]   native: #04 pc 0000000000234cb8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libflipper.so (folly::EventBase::loopForever()+36)
+    runtime.cc:655]   native: #05 pc 000000000018817c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libflipper.so (???)
+    runtime.cc:655]   native: #06 pc 000000000013ced4  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+148)
+    runtime.cc:655]   native: #07 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #08 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #09 pc 000000000031831c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #10 pc 000000000030e648  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+996)
+    runtime.cc:655]   native: #11 pc 000000000067c544  /apex/com.android.art/lib64/libart.so (MterpInvokeVirtual+848)
+    runtime.cc:655]   native: #12 pc 000000000012d814  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_virtual+20)
+    runtime.cc:655]   native: #13 pc 000000000029006c  [anon:dalvik-classes.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk] (com.facebook.flipper.android.FlipperThread.run+40)
+    runtime.cc:655]   native: #14 pc 0000000000305c44  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.6432830707213048161)+268)
+    runtime.cc:655]   native: #15 pc 000000000066b24c  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780)
+    runtime.cc:655]   native: #16 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88)
+    runtime.cc:655]   native: #17 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #18 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #19 pc 0000000000554cbc  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460)
+    runtime.cc:655]   native: #20 pc 00000000005a4058  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308)
+    runtime.cc:655]   native: #21 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #22 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   at com.facebook.flipper.android.EventBase.loopForever(Native method)
+    runtime.cc:655]   at com.facebook.flipper.android.FlipperThread.run(FlipperThread.java:31)
+    runtime.cc:655] 
+    runtime.cc:655] "HybridData DestructorThread" prio=5 tid=24 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec0da8 self=0x728804ef00
+    runtime.cc:655]   | sysTid=30919 nice=0 cgrp=default sched=0/0 handle=0x70a7416cc0
+    runtime.cc:655]   | state=S schedstat=( 230625 0 2 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70a7313000-0x70a7315000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 000000000049a038  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+544)
+    runtime.cc:655]   native: #03 pc 000000000049b88c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+280)
+    runtime.cc:655]   at java.lang.Object.wait(Native method)
+    runtime.cc:655]   - waiting on <0x053d7eb4> (a java.lang.Object)
+    runtime.cc:655]   at java.lang.Object.wait(Object.java:442)
+    runtime.cc:655]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:190)
+    runtime.cc:655]   - locked <0x053d7eb4> (a java.lang.Object)
+    runtime.cc:655]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:211)
+    runtime.cc:655]   at com.facebook.jni.DestructorThread$1.run(DestructorThread.java:76)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp http://localhost:8081/..." prio=5 tid=25 Native
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec1020 self=0x7288055e40
+    runtime.cc:655]   | sysTid=30921 nice=0 cgrp=default sched=0/0 handle=0x70a630ccc0
+    runtime.cc:655]   | state=S schedstat=( 26364012 1799057 72 ) utm=1 stm=0 core=7 HZ=100
+    runtime.cc:655]   | stack=0x70a6209000-0x70a620b000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009baf4  /apex/com.android.runtime/lib64/bionic/libc.so (recvfrom+4)
+    runtime.cc:655]   native: #01 pc 0000000000028a2c  /apex/com.android.art/lib64/libopenjdk.so (NET_Read+80)
+    runtime.cc:655]   native: #02 pc 00000000000295a4  /apex/com.android.art/lib64/libopenjdk.so (SocketInputStream_socketRead0+216)
+    runtime.cc:655]   at java.net.SocketInputStream.socketRead0(Native method)
+    runtime.cc:655]   at java.net.SocketInputStream.socketRead(SocketInputStream.java:119)
+    runtime.cc:655]   at java.net.SocketInputStream.read(SocketInputStream.java:176)
+    runtime.cc:655]   at java.net.SocketInputStream.read(SocketInputStream.java:144)
+    runtime.cc:655]   at okio.InputStreamSource.read(JvmOkio.kt:91)
+    runtime.cc:655]   at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:129)
+    runtime.cc:655]   at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+    runtime.cc:655]   at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+    runtime.cc:655]   at okio.RealBufferedSource.readByte(RealBufferedSource.kt:209)
+    runtime.cc:655]   at okhttp3.internal.ws.WebSocketReader.readHeader(WebSocketReader.kt:119)
+    runtime.cc:655]   at okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.kt:102)
+    runtime.cc:655]   at okhttp3.internal.ws.RealWebSocket.loopReader(RealWebSocket.kt:293)
+    runtime.cc:655]   at okhttp3.internal.ws.RealWebSocket$connect$1.onResponse(RealWebSocket.kt:195)
+    runtime.cc:655]   at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp Dispatcher" prio=5 tid=26 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec3d88 self=0x72880526a0
+    runtime.cc:655]   | sysTid=30922 nice=0 cgrp=default sched=0/0 handle=0x70a6202cc0
+    runtime.cc:655]   | state=S schedstat=( 16241509 905365 68 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70a60ff000-0x70a6101000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp TaskRunner" prio=5 tid=27 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec61b8 self=0x7288054270
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   | sysTid=30925 nice=0 cgrp=default sched=0/0 handle=0x70a40f8cc0
+    runtime.cc:655]   | state=S schedstat=( 274011 761875 7 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70a3ff5000-0x70a3ff7000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp TaskRunner" prio=5 tid=29 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec62f0 self=0x728805b1b0
+    runtime.cc:655]   | sysTid=30927 nice=0 cgrp=default sched=0/0 handle=0x70a1ee4cc0
+    runtime.cc:655]   | state=S schedstat=( 6161455 1256875 21 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70a1de1000-0x70a1de3000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000001afcfc  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::TimedWait(art::Thread*, long, int)+172)
+    runtime.cc:655]   native: #02 pc 000000000049a04c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+564)
+    runtime.cc:655]   native: #03 pc 000000000049b88c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+280)
+    runtime.cc:655]   at java.lang.Object.wait(Native method)
+    runtime.cc:655]   - waiting on <0x0b01fadd> (a okhttp3.internal.concurrent.TaskRunner)
+    runtime.cc:655]   at okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+    runtime.cc:655]   at okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+    runtime.cc:655]   at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+    runtime.cc:655]   - locked <0x0b01fadd> (a okhttp3.internal.concurrent.TaskRunner)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp TaskRunner" prio=5 tid=30 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec66f8 self=0x7288057a10
+    runtime.cc:655]   | sysTid=30928 nice=0 cgrp=default sched=0/0 handle=0x70a0ddacc0
+    runtime.cc:655]   | state=S schedstat=( 317864 443490 9 ) utm=0 stm=0 core=7 HZ=100
+    runtime.cc:655]   | stack=0x70a0cd7000-0x70a0cd9000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp TaskRunner" prio=5 tid=31 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec67c0 self=0x72880595e0
+    runtime.cc:655]   | sysTid=30929 nice=0 cgrp=default sched=0/0 handle=0x70a0cd0cc0
+    runtime.cc:655]   | state=S schedstat=( 5806244 690209 18 ) utm=0 stm=0 core=6 HZ=100
+    runtime.cc:655]   | stack=0x70a0bcd000-0x70a0bcf000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "Okio Watchdog" prio=5 tid=28 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec6888 self=0x7288063cc0
+    runtime.cc:655]   | sysTid=30930 nice=0 cgrp=default sched=0/0 handle=0x70a3feecc0
+    runtime.cc:655]   | state=S schedstat=( 1150521 688699 16 ) utm=0 stm=0 core=7 HZ=100
+    runtime.cc:655]   | stack=0x70a3eeb000-0x70a3eed000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000001afcfc  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::TimedWait(art::Thread*, long, int)+172)
+    runtime.cc:655]   native: #02 pc 000000000049a04c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+564)
+    runtime.cc:655]   native: #03 pc 000000000049b88c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+280)
+    runtime.cc:655]   at java.lang.Object.wait(Native method)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   - waiting on <0x0e355652> (a java.lang.Class<okio.AsyncTimeout>)
+    runtime.cc:655]   at okio.AsyncTimeout$Companion.awaitTimeout$okio(AsyncTimeout.kt:316)
+    runtime.cc:655]   at okio.AsyncTimeout$Watchdog.run(AsyncTimeout.kt:187)
+    runtime.cc:655]   - locked <0x0e355652> (a java.lang.Class<okio.AsyncTimeout>)
+    runtime.cc:655] 
+    runtime.cc:655] "RenderThread" prio=10 tid=32 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec6d98 self=0x7288060520
+    runtime.cc:655]   | sysTid=30933 nice=-10 cgrp=default sched=0/0 handle=0x709dac8cc0
+    runtime.cc:655]   | state=S schedstat=( 31817416 10544635 179 ) utm=1 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x709d9d1000-0x709d9d3000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009bf38  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8)
+    runtime.cc:655]   native: #01 pc 0000000000019ad0  /system/lib64/libutils.so (android::Looper::pollInner(int)+184)
+    runtime.cc:655]   native: #02 pc 00000000000199b0  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+112)
+    runtime.cc:655]   native: #03 pc 000000000020ec6c  /system/lib64/libhwui.so (android::uirenderer::ThreadBase::waitForWork()+132)
+    runtime.cc:655]   native: #04 pc 0000000000230018  /system/lib64/libhwui.so (android::uirenderer::renderthread::RenderThread::threadLoop()+80)
+    runtime.cc:655]   native: #05 pc 00000000000154d0  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+260)
+    runtime.cc:655]   native: #06 pc 0000000000014d94  /system/lib64/libutils.so (thread_data_t::trampoline(thread_data_t const*)+412)
+    runtime.cc:655]   native: #07 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #08 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp Dispatcher" prio=5 tid=33 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec6e10 self=0x728805e950
+    runtime.cc:655]   | sysTid=30938 nice=0 cgrp=default sched=0/0 handle=0x709c9cacc0
+    runtime.cc:655]   | state=S schedstat=( 96333392 1384321 42 ) utm=6 stm=2 core=4 HZ=100
+    runtime.cc:655]   | stack=0x709c8c7000-0x709c8c9000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+    runtime.cc:655]   at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "mqt_js" prio=5 tid=35 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec7850 self=0x7288071b40
+    runtime.cc:655]   | sysTid=30944 nice=0 cgrp=default sched=0/0 handle=0x709987fcc0
+    runtime.cc:655]   | state=S schedstat=( 969752095 4176251 234 ) utm=93 stm=2 core=4 HZ=100
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   | stack=0x709977c000-0x709977e000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000001af92c  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+148)
+    runtime.cc:655]   native: #02 pc 0000000000364b14  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::NewObjectV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+516)
+    runtime.cc:655]   native: #03 pc 0000000000018164  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libfbjni.so (_JNIEnv::NewObject(_jclass*, _jmethodID*, ...)+116)
+    runtime.cc:655]   native: #04 pc 0000000000018cf4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libfbjni.so (facebook::jni::basic_strong_ref<facebook::jni::detail::HybridData, facebook::jni::LocalReferenceAllocator> facebook::jni::JavaClass<facebook::jni::detail::HybridData, facebook::jni::JObject, void>::newInstance<>()+76)
+    runtime.cc:655]   native: #05 pc 0000000000064710  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (facebook::jni::HybridClass<facebook::react::JNativeRunnable, facebook::react::Runnable>::makeHybridData(std::__ndk1::unique_ptr<facebook::react::JNativeRunnable, std::__ndk1::default_delete<facebook::react::JNativeRunnable> >)+44)
+    runtime.cc:655]   native: #06 pc 0000000000062e84  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (facebook::jni::basic_strong_ref<facebook::jni::HybridClass<facebook::react::JNativeRunnable, facebook::react::Runnable>::JavaPart, facebook::jni::LocalReferenceAllocator> facebook::jni::HybridClass<facebook::react::JNativeRunnable, facebook::react::Runnable>::newObjectCxxArgs<std::__ndk1::function<void ()> >(std::__ndk1::function<void ()>&&)+456)
+    runtime.cc:655]   native: #07 pc 0000000000062ac8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (facebook::react::JMessageQueueThread::runOnQueue(std::__ndk1::function<void ()>&&)+88)
+    runtime.cc:655]   native: #08 pc 00000000000689d0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (facebook::react::JavaNativeModule::invoke(unsigned int, folly::dynamic&&, int)+168)
+    runtime.cc:655]   native: #09 pc 000000000002de20  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes-executor-debug.so (facebook::react::ModuleRegistry::callNativeMethod(unsigned int, unsigned int, folly::dynamic&&, int)+80)
+    runtime.cc:655]   native: #10 pc 0000000000091558  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (facebook::react::JsToNativeBridge::callNativeModules(facebook::react::JSExecutor&, folly::dynamic&&, bool)+292)
+    runtime.cc:655]   native: #11 pc 0000000000023600  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes-executor-debug.so (facebook::react::JSIExecutor::callNativeModules(facebook::jsi::Value const&, bool)+104)
+    runtime.cc:655]   native: #12 pc 0000000000025f64  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes-executor-debug.so (???)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #13 pc 000000000001da5c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes-executor-common-debug.so (std::__ndk1::__function::__func<facebook::jsi::DecoratedHostFunction, std::__ndk1::allocator<facebook::jsi::DecoratedHostFunction>, facebook::jsi::Value (facebook::jsi::Runtime&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)>::operator()(facebook::jsi::Runtime&, facebook::jsi::Value const&, facebook::jsi::Value const*&&, unsigned long&&)+68)
+    runtime.cc:655]   native: #14 pc 000000000003ea90  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::HFContext::func(void*, hermes::vm::Runtime*, hermes::vm::NativeArgs)+324)
+    runtime.cc:655]   native: #15 pc 000000000004d6fc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #16 pc 0000000000068a88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #17 pc 000000000006c4f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #18 pc 0000000000069d74  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #19 pc 000000000004d9e4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #20 pc 000000000004c024  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #21 pc 0000000000109430  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #22 pc 000000000004d6fc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #23 pc 0000000000068a88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #24 pc 000000000006c4f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #25 pc 0000000000069d74  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #26 pc 000000000004d9e4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #27 pc 00000000000350d8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::call(facebook::jsi::Function const&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)+652)
+    runtime.cc:655]   native: #28 pc 000000000007e7bc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::call(facebook::jsi::Runtime&, facebook::jsi::Value const*, unsigned long) const+112)
+    runtime.cc:655]   native: #29 pc 0000000000100f80  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #30 pc 0000000000100d00  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #31 pc 0000000000100cb4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #32 pc 0000000000100c8c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #33 pc 00000000000ffb5c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #34 pc 00000000000883dc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (???)
+    runtime.cc:655]   native: #35 pc 0000000000093360  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (???)
+    runtime.cc:655]   native: #36 pc 0000000000063a88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (???)
+    runtime.cc:655]   native: #37 pc 0000000000059248  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (facebook::jni::detail::MethodWrapper<void (facebook::react::JNativeRunnable::*)(), &(facebook::react::JNativeRunnable::run()), facebook::react::JNativeRunnable, void>::dispatch(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::react::JNativeRunnable, facebook::react::Runnable>::JavaPart, facebook::react::Runnable, void>::_javaobject*>)+32)
+    runtime.cc:655]   native: #38 pc 00000000000591c0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreactnativejni.so (facebook::jni::detail::FunctionWrapper<void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::react::JNativeRunnable, facebook::react::Runnable>::JavaPart, facebook::react::Runnable, void>::_javaobject*>), facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::react::JNativeRunnable, facebook::react::Runnable>::JavaPart, facebook::react::Runnable, void>::_javaobject*, void>::call(_JNIEnv*, _jobject*, void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::react::JNativeRunnable, facebook::react::Runnable>::JavaPart, facebook::react::Runnable, void>::_javaobject*>))+60)
+    runtime.cc:655]   native: #39 pc 000000000013ced4  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+148)
+    runtime.cc:655]   native: #40 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #41 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #42 pc 000000000031831c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376)
+    runtime.cc:655]   native: #43 pc 000000000030e648  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+996)
+    runtime.cc:655]   native: #44 pc 000000000067df14  /apex/com.android.art/lib64/libart.so (MterpInvokeInterface+1032)
+    runtime.cc:655]   native: #45 pc 000000000012da14  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_interface+20)
+    runtime.cc:655]   native: #46 pc 000000000036e0d0  /system/framework/framework.jar (offset 91a000) (android.os.Handler.handleCallback+4)
+    runtime.cc:655]   native: #47 pc 000000000067f740  /apex/com.android.art/lib64/libart.so (MterpInvokeStatic+1224)
+    runtime.cc:655]   native: #48 pc 000000000012d994  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_static+20)
+    runtime.cc:655]   native: #49 pc 000000000036df3c  /system/framework/framework.jar (offset 91a000) (android.os.Handler.dispatchMessage+8)
+    runtime.cc:655]   native: #50 pc 000000000067d59c  /apex/com.android.art/lib64/libart.so (MterpInvokeSuper+2468)
+    runtime.cc:655]   native: #51 pc 000000000012d894  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_super+20)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #52 pc 00000000002f1570  [anon:dalvik-classes.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk] (com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage)
+    runtime.cc:655]   native: #53 pc 000000000067c7e4  /apex/com.android.art/lib64/libart.so (MterpInvokeVirtual+1520)
+    runtime.cc:655]   native: #54 pc 000000000012d814  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_virtual+20)
+    runtime.cc:655]   native: #55 pc 000000000039584e  /system/framework/framework.jar (offset 91a000) (android.os.Looper.loop+482)
+    runtime.cc:655]   native: #56 pc 000000000067f740  /apex/com.android.art/lib64/libart.so (MterpInvokeStatic+1224)
+    runtime.cc:655]   native: #57 pc 000000000012d994  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_static+20)
+    runtime.cc:655]   native: #58 pc 00000000002f16fe  [anon:dalvik-classes.dex extracted in memory from /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/base.apk] (com.facebook.react.bridge.queue.MessageQueueThreadImpl$4.run+74)
+    runtime.cc:655]   native: #59 pc 000000000067e21c  /apex/com.android.art/lib64/libart.so (MterpInvokeInterface+1808)
+    runtime.cc:655]   native: #60 pc 000000000012da14  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_interface+20)
+    runtime.cc:655]   native: #61 pc 00000000000eb7d0  /apex/com.android.art/javalib/core-oj.jar (java.lang.Thread.run+8)
+    runtime.cc:655]   native: #62 pc 0000000000305c44  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.6432830707213048161)+268)
+    runtime.cc:655]   native: #63 pc 000000000066b24c  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780)
+    runtime.cc:655]   native: #64 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88)
+    runtime.cc:655]   native: #65 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #66 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #67 pc 0000000000554cbc  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460)
+    runtime.cc:655]   native: #68 pc 00000000005a4058  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308)
+    runtime.cc:655]   native: #69 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #70 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   at com.facebook.react.bridge.queue.NativeRunnable.run(Native method)
+    runtime.cc:655]   at android.os.Handler.handleCallback(Handler.java:938)
+    runtime.cc:655]   at android.os.Handler.dispatchMessage(Handler.java:99)
+    runtime.cc:655]   at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:27)
+    runtime.cc:655]   at android.os.Looper.loop(Looper.java:223)
+    runtime.cc:655]   at com.facebook.react.bridge.queue.MessageQueueThreadImpl$4.run(MessageQueueThreadImpl.java:226)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "mqt_native_modules" prio=5 tid=36 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13ec7dd8 self=0x728806c7d0
+    runtime.cc:655]   | sysTid=30945 nice=0 cgrp=default sched=0/0 handle=0x7098775cc0
+    runtime.cc:655]   | state=S schedstat=( 173346934 6801300 204 ) utm=14 stm=2 core=5 HZ=100
+    runtime.cc:655]   | stack=0x7098672000-0x7098674000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #00 pc 000000000009bf38  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8)
+    runtime.cc:655]   native: #01 pc 0000000000019ad0  /system/lib64/libutils.so (android::Looper::pollInner(int)+184)
+    runtime.cc:655]   native: #02 pc 00000000000199b0  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+112)
+    runtime.cc:655]   native: #03 pc 0000000000110f80  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+44)
+    runtime.cc:655]   at android.os.MessageQueue.nativePollOnce(Native method)
+    runtime.cc:655]   at android.os.MessageQueue.next(MessageQueue.java:335)
+    runtime.cc:655]   at android.os.Looper.loop(Looper.java:183)
+    runtime.cc:655]   at com.facebook.react.bridge.queue.MessageQueueThreadImpl$4.run(MessageQueueThreadImpl.java:226)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "Thread-2" prio=5 tid=37 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12d400a0 self=0x7288078a80
+    runtime.cc:655]   | sysTid=30948 nice=0 cgrp=default sched=0/0 handle=0x709756dcc0
+    runtime.cc:655]   | state=S schedstat=( 1717968 486563 8 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x709746a000-0x709746c000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 000000000004ef34  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+144)
+    runtime.cc:655]   native: #02 pc 00000000000af134  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+60)
+    runtime.cc:655]   native: #03 pc 0000000000053210  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libc++_shared.so (std::__ndk1::condition_variable::wait(std::__ndk1::unique_lock<std::__ndk1::mutex>&)+20)
+    runtime.cc:655]   native: #04 pc 00000000000c0ae4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes-inspector.so (facebook::hermes::inspector::detail::SerialExecutor::runLoop()+96)
+    runtime.cc:655]   native: #05 pc 000000000000f80c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libfbjni.so (facebook::jni::detail::MethodWrapper<void (facebook::jni::JNativeRunnable::*)(), &(facebook::jni::JNativeRunnable::run()), facebook::jni::JNativeRunnable, void>::dispatch(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>)+32)
+    runtime.cc:655]   native: #06 pc 000000000000f778  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libfbjni.so (facebook::jni::detail::FunctionWrapper<void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>), facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*, void>::call(_JNIEnv*, _jobject*, void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>))+60)
+    runtime.cc:655]   native: #07 pc 000000000013ced4  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+148)
+    runtime.cc:655]   native: #08 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #09 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #10 pc 000000000031831c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376)
+    runtime.cc:655]   native: #11 pc 000000000030e648  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+996)
+    runtime.cc:655]   native: #12 pc 000000000067df14  /apex/com.android.art/lib64/libart.so (MterpInvokeInterface+1032)
+    runtime.cc:655]   native: #13 pc 000000000012da14  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_interface+20)
+    runtime.cc:655]   native: #14 pc 00000000000eb7d0  /apex/com.android.art/javalib/core-oj.jar (java.lang.Thread.run+8)
+    runtime.cc:655]   native: #15 pc 0000000000305c44  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.6432830707213048161)+268)
+    runtime.cc:655]   native: #16 pc 000000000066b24c  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780)
+    runtime.cc:655]   native: #17 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88)
+    runtime.cc:655]   native: #18 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #19 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #20 pc 0000000000554cbc  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460)
+    runtime.cc:655]   native: #21 pc 00000000005a4058  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308)
+    runtime.cc:655]   native: #22 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #23 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   at com.facebook.jni.NativeRunnable.run(Native method)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "Thread-3" prio=5 tid=38 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12d401e0 self=0x7288076eb0
+    runtime.cc:655]   | sysTid=30949 nice=0 cgrp=default sched=0/0 handle=0x7095bfbcc0
+    runtime.cc:655]   | state=S schedstat=( 1184531 0 5 ) utm=0 stm=0 core=6 HZ=100
+    runtime.cc:655]   | stack=0x7095af8000-0x7095afa000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 000000000004ef34  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+144)
+    runtime.cc:655]   native: #02 pc 00000000000af134  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+60)
+    runtime.cc:655]   native: #03 pc 0000000000053210  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libc++_shared.so (std::__ndk1::condition_variable::wait(std::__ndk1::unique_lock<std::__ndk1::mutex>&)+20)
+    runtime.cc:655]   native: #04 pc 00000000000c0ae4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes-inspector.so (facebook::hermes::inspector::detail::SerialExecutor::runLoop()+96)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #05 pc 000000000000f80c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libfbjni.so (facebook::jni::detail::MethodWrapper<void (facebook::jni::JNativeRunnable::*)(), &(facebook::jni::JNativeRunnable::run()), facebook::jni::JNativeRunnable, void>::dispatch(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>)+32)
+    runtime.cc:655]   native: #06 pc 000000000000f778  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libfbjni.so (facebook::jni::detail::FunctionWrapper<void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>), facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*, void>::call(_JNIEnv*, _jobject*, void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<facebook::jni::JNativeRunnable, facebook::jni::JRunnable>::JavaPart, facebook::jni::JRunnable, void>::_javaobject*>))+60)
+    runtime.cc:655]   native: #07 pc 000000000013ced4  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+148)
+    runtime.cc:655]   native: #08 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #09 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #10 pc 000000000031831c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376)
+    runtime.cc:655]   native: #11 pc 000000000030e648  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+996)
+    runtime.cc:655]   native: #12 pc 000000000067df14  /apex/com.android.art/lib64/libart.so (MterpInvokeInterface+1032)
+    runtime.cc:655]   native: #13 pc 000000000012da14  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_interface+20)
+    runtime.cc:655]   native: #14 pc 00000000000eb7d0  /apex/com.android.art/javalib/core-oj.jar (java.lang.Thread.run+8)
+    runtime.cc:655]   native: #15 pc 0000000000305c44  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.6432830707213048161)+268)
+    runtime.cc:655]   native: #16 pc 000000000066b24c  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780)
+    runtime.cc:655]   native: #17 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88)
+    runtime.cc:655]   native: #18 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+    runtime.cc:655]   native: #19 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+    runtime.cc:655]   native: #20 pc 0000000000554cbc  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460)
+    runtime.cc:655]   native: #21 pc 00000000005a4058  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308)
+    runtime.cc:655]   native: #22 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #23 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   at com.facebook.jni.NativeRunnable.run(Native method)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "pool-2-thread-1" prio=5 tid=39 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12e4beb8 self=0x7288050ad0
+    runtime.cc:655]   | sysTid=30950 nice=0 cgrp=default sched=0/0 handle=0x7093af1cc0
+    runtime.cc:655]   | state=S schedstat=( 20494793 2670470 56 ) utm=1 stm=0 core=2 HZ=100
+    runtime.cc:655]   | stack=0x70939ee000-0x70939f0000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000005a25c0  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+480)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+    runtime.cc:655]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2067)
+    runtime.cc:655]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "CrAsyncTask #1" prio=4 tid=34 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x1300b1a0 self=0x728806e3a0
+    runtime.cc:655]   | sysTid=30955 nice=10 cgrp=default sched=0/0 handle=0x7092601cc0
+    runtime.cc:655]   | state=S schedstat=( 853593 198125 3 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70924fe000-0x7092500000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+    runtime.cc:655]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2109)
+    runtime.cc:655]   at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:402)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at ik.run(chromium-TrichromeWebViewGoogle.aab-stable-457706233:2)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp http://localhost:8081/..." prio=5 tid=19 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x130a0530 self=0x728807f9c0
+    runtime.cc:655]   | sysTid=30961 nice=0 cgrp=default sched=0/0 handle=0x70ad238cc0
+    runtime.cc:655]   | state=S schedstat=( 9941200 849218 13 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x70ad135000-0x70ad137000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #00 pc 000000000009baf4  /apex/com.android.runtime/lib64/bionic/libc.so (recvfrom+4)
+    runtime.cc:655]   native: #01 pc 0000000000028a2c  /apex/com.android.art/lib64/libopenjdk.so (NET_Read+80)
+    runtime.cc:655]   native: #02 pc 00000000000295a4  /apex/com.android.art/lib64/libopenjdk.so (SocketInputStream_socketRead0+216)
+    runtime.cc:655]   at java.net.SocketInputStream.socketRead0(Native method)
+    runtime.cc:655]   at java.net.SocketInputStream.socketRead(SocketInputStream.java:119)
+    runtime.cc:655]   at java.net.SocketInputStream.read(SocketInputStream.java:176)
+    runtime.cc:655]   at java.net.SocketInputStream.read(SocketInputStream.java:144)
+    runtime.cc:655]   at okio.InputStreamSource.read(JvmOkio.kt:91)
+    runtime.cc:655]   at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:129)
+    runtime.cc:655]   at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+    runtime.cc:655]   at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+    runtime.cc:655]   at okio.RealBufferedSource.readByte(RealBufferedSource.kt:209)
+    runtime.cc:655]   at okhttp3.internal.ws.WebSocketReader.readHeader(WebSocketReader.kt:119)
+    runtime.cc:655]   at okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.kt:102)
+    runtime.cc:655]   at okhttp3.internal.ws.RealWebSocket.loopReader(RealWebSocket.kt:293)
+    runtime.cc:655]   at okhttp3.internal.ws.RealWebSocket$connect$1.onResponse(RealWebSocket.kt:195)
+    runtime.cc:655]   at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "DefaultDispatcher-worker-2" prio=5 tid=40 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x130af818 self=0x728807ddf0
+    runtime.cc:655]   | sysTid=30963 nice=0 cgrp=default sched=0/0 handle=0x708b2f1cc0
+    runtime.cc:655]   | state=S schedstat=( 163964210 2434272 41 ) utm=14 stm=1 core=7 HZ=100
+    runtime.cc:655]   | stack=0x708b1ee000-0x708b1f0000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+    runtime.cc:655]   at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+    runtime.cc:655]   at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+    runtime.cc:655]   at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+    runtime.cc:655]   at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+    runtime.cc:655] 
+    runtime.cc:655] "DefaultDispatcher-worker-1" prio=5 tid=41 TimedWaiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x130ad9f8 self=0x728807a650
+    runtime.cc:655]   | sysTid=30962 nice=0 cgrp=default sched=0/0 handle=0x708b3fbcc0
+    runtime.cc:655]   | state=S schedstat=( 756146 0 3 ) utm=0 stm=0 core=3 HZ=100
+    runtime.cc:655]   | stack=0x708b2f8000-0x708b2fa000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b350  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32)
+    runtime.cc:655]   native: #01 pc 00000000005a2954  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+1396)
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+    runtime.cc:655]   at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+    runtime.cc:655]   at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+    runtime.cc:655]   at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+    runtime.cc:655]   at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+    runtime.cc:655] 
+    runtime.cc:655] "CameraX-scheduler" prio=4 tid=42 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13170268 self=0x72880884d0
+    runtime.cc:655]   | sysTid=30965 nice=10 cgrp=default sched=0/0 handle=0x70891e7cc0
+    runtime.cc:655]   | state=S schedstat=( 340312 0 2 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70890e4000-0x70890e6000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009bf38  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+8)
+    runtime.cc:655]   native: #01 pc 0000000000019ad0  /system/lib64/libutils.so (android::Looper::pollInner(int)+184)
+    runtime.cc:655]   native: #02 pc 00000000000199b0  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+112)
+    runtime.cc:655]   native: #03 pc 0000000000110f80  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+44)
+    runtime.cc:655]   at android.os.MessageQueue.nativePollOnce(Native method)
+    runtime.cc:655]   at android.os.MessageQueue.next(MessageQueue.java:335)
+    runtime.cc:655]   at android.os.Looper.loop(Looper.java:183)
+    runtime.cc:655]   at android.os.HandlerThread.run(HandlerThread.java:67)
+    runtime.cc:655] 
+    runtime.cc:655] "CameraX-core_camera_0" prio=5 tid=43 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13175530 self=0x728808a0a0
+    runtime.cc:655]   | sysTid=30966 nice=0 cgrp=default sched=0/0 handle=0x70880ddcc0
+    runtime.cc:655]   | state=S schedstat=( 35337125 836671 40 ) utm=3 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x7087fda000-0x7087fdc000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000005a25c0  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+480)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+    runtime.cc:655]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2067)
+    runtime.cc:655]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "CameraX-core_camera_1" prio=5 tid=44 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13270468 self=0x7288083160
+    runtime.cc:655]   | sysTid=30967 nice=0 cgrp=default sched=0/0 handle=0x7086fd3cc0
+    runtime.cc:655]   | state=S schedstat=( 35556038 1660205 73 ) utm=3 stm=0 core=4 HZ=100
+2021-09-14 23:12:50.270 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   | stack=0x7086ed0000-0x7086ed2000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000005a25c0  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+480)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+    runtime.cc:655]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2067)
+    runtime.cc:655]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "CameraX-core_camera_2" prio=5 tid=45 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13272450 self=0x7288094780
+    runtime.cc:655]   | sysTid=30968 nice=0 cgrp=default sched=0/0 handle=0x7085ec9cc0
+    runtime.cc:655]   | state=S schedstat=( 3105832 113229 11 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x7085dc6000-0x7085dc8000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000005a25c0  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+480)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+    runtime.cc:655]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2067)
+    runtime.cc:655]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "CameraX-core_camera_3" prio=5 tid=46 Waiting
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13273f30 self=0x7288090fe0
+    runtime.cc:655]   | sysTid=30969 nice=0 cgrp=default sched=0/0 handle=0x7084dbfcc0
+    runtime.cc:655]   | state=S schedstat=( 1796563 0 13 ) utm=0 stm=0 core=4 HZ=100
+    runtime.cc:655]   | stack=0x7084cbc000-0x7084cbe000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 00000000005a25c0  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+480)
+    runtime.cc:655]   native: #02 pc 00000000004dba14  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+660)
+    runtime.cc:655]   at sun.misc.Unsafe.park(Native method)
+    runtime.cc:655]   - waiting on an unknown object
+    runtime.cc:655]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+2021-09-14 23:12:50.271 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2067)
+    runtime.cc:655]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "OkHttp http://localhost:8081/..." prio=5 tid=47 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x12c843e0 self=0x7288099af0
+    runtime.cc:655]   | sysTid=30977 nice=0 cgrp=default sched=0/0 handle=0x7083cb5cc0
+    runtime.cc:655]   | state=S schedstat=( 5186719 1776509 30 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x7083bb2000-0x7083bb4000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000009baf4  /apex/com.android.runtime/lib64/bionic/libc.so (recvfrom+4)
+    runtime.cc:655]   native: #01 pc 0000000000028a2c  /apex/com.android.art/lib64/libopenjdk.so (NET_Read+80)
+    runtime.cc:655]   native: #02 pc 00000000000295a4  /apex/com.android.art/lib64/libopenjdk.so (SocketInputStream_socketRead0+216)
+    runtime.cc:655]   at java.net.SocketInputStream.socketRead0(Native method)
+    runtime.cc:655]   at java.net.SocketInputStream.socketRead(SocketInputStream.java:119)
+    runtime.cc:655]   at java.net.SocketInputStream.read(SocketInputStream.java:176)
+    runtime.cc:655]   at java.net.SocketInputStream.read(SocketInputStream.java:144)
+    runtime.cc:655]   at okio.InputStreamSource.read(JvmOkio.kt:91)
+    runtime.cc:655]   at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:129)
+    runtime.cc:655]   at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+    runtime.cc:655]   at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+    runtime.cc:655]   at okio.RealBufferedSource.readByte(RealBufferedSource.kt:209)
+    runtime.cc:655]   at okhttp3.internal.ws.WebSocketReader.readHeader(WebSocketReader.kt:119)
+    runtime.cc:655]   at okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.kt:102)
+    runtime.cc:655]   at okhttp3.internal.ws.RealWebSocket.loopReader(RealWebSocket.kt:293)
+    runtime.cc:655]   at okhttp3.internal.ws.RealWebSocket$connect$1.onResponse(RealWebSocket.kt:195)
+    runtime.cc:655]   at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+    runtime.cc:655]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+    runtime.cc:655]   at java.lang.Thread.run(Thread.java:923)
+    runtime.cc:655] 
+    runtime.cc:655] "hwuiTask0" prio=6 tid=48 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13540020 self=0x7288096350
+    runtime.cc:655]   | sysTid=30984 nice=-2 cgrp=default sched=0/0 handle=0x70823b8cc0
+    runtime.cc:655]   | state=S schedstat=( 493855 322186 12 ) utm=0 stm=0 core=6 HZ=100
+    runtime.cc:655]   | stack=0x70822c1000-0x70822c3000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 000000000004ef34  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+144)
+    runtime.cc:655]   native: #02 pc 00000000000af134  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+60)
+    runtime.cc:655]   native: #03 pc 00000000000584ec  /system/lib64/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+20)
+    runtime.cc:655]   native: #04 pc 0000000000233984  /system/lib64/libhwui.so (android::uirenderer::CommonPool::workerLoop()+84)
+2021-09-14 23:12:50.271 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #05 pc 0000000000233bac  /system/lib64/libhwui.so (void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, android::uirenderer::CommonPool::CommonPool()::$_0> >(void*)+128)
+    runtime.cc:655]   native: #06 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #07 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] "hwuiTask1" prio=6 tid=49 Native
+    runtime.cc:655]   | group="" sCount=1 dsCount=0 flags=1 obj=0x13580020 self=0x728808f410
+    runtime.cc:655]   | sysTid=30985 nice=-2 cgrp=default sched=0/0 handle=0x70822bacc0
+    runtime.cc:655]   | state=S schedstat=( 464791 298803 12 ) utm=0 stm=0 core=5 HZ=100
+    runtime.cc:655]   | stack=0x70821c3000-0x70821c5000 stackSize=995KB
+    runtime.cc:655]   | held mutexes=
+    runtime.cc:655]   native: #00 pc 000000000004b34c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28)
+    runtime.cc:655]   native: #01 pc 000000000004ef34  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+144)
+    runtime.cc:655]   native: #02 pc 00000000000af134  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+60)
+    runtime.cc:655]   native: #03 pc 00000000000584ec  /system/lib64/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+20)
+    runtime.cc:655]   native: #04 pc 0000000000233984  /system/lib64/libhwui.so (android::uirenderer::CommonPool::workerLoop()+84)
+    runtime.cc:655]   native: #05 pc 0000000000233bac  /system/lib64/libhwui.so (void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, android::uirenderer::CommonPool::CommonPool()::$_0> >(void*)+128)
+    runtime.cc:655]   native: #06 pc 00000000000afd4c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+    runtime.cc:655]   native: #07 pc 0000000000050288  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64)
+    runtime.cc:655]   (no managed stack frames)
+    runtime.cc:655] 
+    runtime.cc:655] Aborting thread:
+    runtime.cc:655] "pool-5-thread-1" prio=5 tid=50 Native
+    runtime.cc:655]   | group="" sCount=0 dsCount=0 flags=0 obj=0x12e83810 self=0x728809d290
+    runtime.cc:655]   | sysTid=31018 nice=0 cgrp=default sched=0/0 handle=0x7080144cc0
+    runtime.cc:655]   | state=R schedstat=( 152564317 2385159 165 ) utm=10 stm=3 core=4 HZ=100
+    runtime.cc:655]   | stack=0x7080041000-0x7080043000 stackSize=1043KB
+    runtime.cc:655]   | held mutexes= "abort lock"
+    runtime.cc:655]   native: #00 pc 000000000049ee3c  /apex/com.android.art/lib64/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, BacktraceMap*, char const*, art::ArtMethod*, void*, bool)+140)
+    runtime.cc:655]   native: #01 pc 00000000005abff8  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, bool, BacktraceMap*, bool) const+376)
+    runtime.cc:655]   native: #02 pc 0000000000571728  /apex/com.android.art/lib64/libart.so (art::AbortState::DumpThread(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, art::Thread*) const+60)
+    runtime.cc:655]   native: #03 pc 000000000055d100  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+2436)
+    runtime.cc:655]   native: #04 pc 0000000000013978  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+76)
+    runtime.cc:655]   native: #05 pc 0000000000012fa4  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+320)
+    runtime.cc:655]   native: #06 pc 00000000003851b8  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::JniAbort(char const*, char const*)+2572)
+2021-09-14 23:12:50.271 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #07 pc 0000000000385230  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::JniAbortV(char const*, char const*, std::__va_list)+108)
+    runtime.cc:655]   native: #08 pc 0000000000376f14  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::ScopedCheck::AbortF(char const*, ...)+144)
+    runtime.cc:655]   native: #09 pc 000000000037a52c  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::ScopedCheck::CheckMethodAndSig(art::ScopedObjectAccess&, _jobject*, _jclass*, _jmethodID*, art::Primitive::Type, art::InvokeType)+1620)
+    runtime.cc:655]   native: #10 pc 0000000000378da0  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodV(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, std::__va_list, art::Primitive::Type, art::InvokeType)+764)
+    runtime.cc:655]   native: #11 pc 000000000036687c  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallObjectMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+72)
+    runtime.cc:655]   native: #12 pc 000000000005cb04  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (_JNIEnv::CallObjectMethod(_jobject*, _jmethodID*, ...)+188)
+    runtime.cc:655]   native: #13 pc 00000000000823a8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::JMethod<_jobject* (facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::JArrayClass<_jobject*> >)>::operator()(facebook::jni::alias_ref<_jobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::JArrayClass<_jobject*> >) const+192)
+    runtime.cc:655]   native: #14 pc 0000000000081ff4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (vision::FrameProcessorPlugin::callback(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::JArrayClass<_jobject*> >)+260)
+    runtime.cc:655]   native: #15 pc 00000000000724f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #16 pc 00000000000722f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #17 pc 000000000007223c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #18 pc 00000000000721a0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #19 pc 0000000000070fb4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #20 pc 000000000003ea90  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::HFContext::func(void*, hermes::vm::Runtime*, hermes::vm::NativeArgs)+324)
+    runtime.cc:655]   native: #21 pc 000000000004d6fc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #22 pc 0000000000068a88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #23 pc 000000000006c4f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+2021-09-14 23:12:50.271 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #24 pc 0000000000069d74  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #25 pc 000000000004d9e4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #26 pc 00000000000350d8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::call(facebook::jsi::Function const&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)+652)
+    runtime.cc:655]   native: #27 pc 000000000007e7bc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::call(facebook::jsi::Runtime&, facebook::jsi::Value const*, unsigned long) const+112)
+    runtime.cc:655]   native: #28 pc 0000000000102fcc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #29 pc 0000000000102da0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #30 pc 0000000000102ce4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #31 pc 0000000000102c44  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #32 pc 0000000000101af8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #33 pc 000000000003ea90  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::HFContext::func(void*, hermes::vm::Runtime*, hermes::vm::NativeArgs)+324)
+    runtime.cc:655]   native: #34 pc 000000000004d6fc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #35 pc 0000000000068a88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #36 pc 000000000006c4f4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #37 pc 0000000000069d74  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #38 pc 000000000004d9e4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (???)
+    runtime.cc:655]   native: #39 pc 00000000000350d8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libhermes.so (facebook::hermes::HermesRuntimeImpl::call(facebook::jsi::Function const&, facebook::jsi::Value const&, facebook::jsi::Value const*, unsigned long)+652)
+    runtime.cc:655]   native: #40 pc 000000000007e7bc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::call(facebook::jsi::Runtime&, facebook::jsi::Value const*, unsigned long) const+112)
+    runtime.cc:655]   native: #41 pc 0000000000102fcc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #42 pc 0000000000102da0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+    runtime.cc:655]   native: #43 pc 0000000000102ce4  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libreanimated.so (???)
+2021-09-14 23:12:50.271 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #63 pc 0000000000080ddc  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Function::callWithThis(facebook::jsi::Runtime&, facebook::jsi::Object const&, std::initializer_list<facebook::jsi::Value>) const+120)
+    runtime.cc:655]   native: #64 pc 000000000007fb88  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jsi::Value facebook::jsi::Function::callWithThis<facebook::jsi::Object>(facebook::jsi::Runtime&, facebook::jsi::Object const&, facebook::jsi::Object&&) const+168)
+    runtime.cc:655]   native: #65 pc 000000000006eea0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #66 pc 000000000006edb8  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #67 pc 000000000006ed3c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #68 pc 000000000006ecf0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #69 pc 000000000006dc4c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #70 pc 0000000000084924  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (???)
+    runtime.cc:655]   native: #71 pc 0000000000083668  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (std::__ndk1::function<void (facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>)>::operator()(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*>) const+48)
+    runtime.cc:655]   native: #72 pc 00000000000832b0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (vision::CameraView::frameProcessorCallback(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&)+124)
+    runtime.cc:655]   native: #73 pc 000000000008468c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::detail::MethodWrapper<void (vision::CameraView::*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&), &(vision::CameraView::frameProcessorCallback(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&)), vision::CameraView, void, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&>::dispatch(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&)+196)
+2021-09-14 23:12:50.271 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:655]   native: #74 pc 0000000000084718  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::detail::CallWithJniConversions<void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&), void, facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&>::call(facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*, facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*, void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&))+72)
+    runtime.cc:655]   native: #75 pc 000000000008450c  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::detail::FunctionWrapper<void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&), facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*, void, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&>::call(_JNIEnv*, _jobject*, facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*, void (*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<facebook::jni::HybridClass<vision::CameraView, facebook::jni::detail::BaseHybridClass>::JavaPart, facebook::jni::JObject, void>::_javaobject*>, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&))+52)
+    runtime.cc:655]   native: #76 pc 00000000000835f0  /data/app/~~w_tWceJHP79NvAV_ljE7sA==/com.meshcameratest-MvENxzj-cIGaZRV8FOxD9A==/lib/arm64/libVisionCamera.so (facebook::jni::detail::MethodWrapper<void (vision::CameraView::*)(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&), &(vision::CameraView::frameProcessorCallback(facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&)), vision::CameraView, void, facebook::jni::alias_ref<facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*> const&>::call(_JNIEnv*, _jobject*, facebook::jni::detail::JTypeFor<vision::JImageProxy, facebook::jni::JObject, void>::_javaobject*)+44)
+    runtime.cc:655]   native: #77 pc 000000000013ced4  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+148)
+    runtime.cc:655]   native: #78 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548)
+2021-09-14 23:12:50.274 30880-31018/com.meshcameratest A/.meshcamerates: runtime.cc:663] JNI DETECTED ERROR IN APPLICATION: can't call java.lang.Object com.meshcameratest.frameprocessors.ExamplePlugin1.callback(androidx.camera.core.ImageProxy, java.lang.Object[]) on instance of com.meshcameratest.frameprocessors.ExamplePlugin2
+    runtime.cc:663]     in call to CallObjectMethodV
+    runtime.cc:663]     from void com.mrousavy.camera.CameraView.frameProcessorCallback(androidx.camera.core.ImageProxy)
+    
+    --------- beginning of crash
+2021-09-14 23:12:50.274 30880-31018/com.meshcameratest A/libc: Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 31018 (pool-5-thread-1), pid 30880 (.meshcameratest)
