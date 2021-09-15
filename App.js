@@ -9,6 +9,7 @@
 import React, {
     useState,
     useEffect,
+    useRef,
 } from 'react';
 
 import {
@@ -23,6 +24,12 @@ import {
 import {Camera, useCameraDevices, useCameraFormat, useFrameProcessor} from 'react-native-vision-camera'
 import Animated, {runOnJS} from 'react-native-reanimated';
 import {scanSaveQRCodes, runExample1} from './frame-processors'
+
+function FieldSpacer({size=10})
+{
+    return <View style={ {width:size, height:size} } />
+}
+
 
 function timeStamp() 
 {
@@ -40,6 +47,11 @@ function timeStamp()
     return [year.slice(2), month, day].join('') + '_' + [hours, mins, secs].join('');
 }
 
+function OverlayButton(props)
+{
+    return <Button style={styles.overlayButton} {...props} />
+}
+
 function showToast(message)
 {
     ToastAndroid.showWithGravity(message, ToastAndroid.SHORT, ToastAndroid.CENTER);
@@ -47,21 +59,25 @@ function showToast(message)
 
 function CameraView()
 {
-    const [hasPermission, setHasPermission] = useState(false);
+    const [hasPermission  , setHasPermission  ] = useState(false);
     const [shouldSaveFrame, setShouldSaveFrame] = useState(false);
-    const [scanResult, setScanResult] = useState(null);
+    const [scanResult     , setScanResult     ] = useState(null);
+    const [active         , setActive         ] = useState(true);
 
     const cameraDevices = useCameraDevices();
-    const cameraDevice = cameraDevices.back;
-    const format = useCameraFormat(cameraDevice);
+    const cameraDevice  = cameraDevices.back;
+    const format        = useCameraFormat(cameraDevice);
 
     const frameProcessor = useFrameProcessor(function(frame)
     {
         'worklet';
 
-        console.log("Processing Frame:", frame.toString());
+        const timeNow = timeStamp();
+        const dimensions = frame.width + "x" + frame.height;
 
-        const filename = shouldSaveFrame ? timeStamp() + "_frame" : null;
+        console.log(timeNow, "Processing Frame:", dimensions);
+
+        const filename = shouldSaveFrame ? [timeNow, "frame", dimensions].join("_") : null;
         const result   = scanSaveQRCodes(frame, filename);
 
         runOnJS(setScanResult)(result);
@@ -93,15 +109,17 @@ function CameraView()
                 style={ StyleSheet.absoluteFill }
                 device={cameraDevice}
                 format={format}
-                isActive={true}
-                frameProcessor={frameProcessor}
-                frameProcessorFps={1}
+                isActive={active}
+                frameProcessor={active ? frameProcessor : null}
+                frameProcessorFps={30}
             />            
             <ScrollView style={styles.overlayWrapper}>
                 <Text style={styles.overlayText}>{JSON.stringify(scanResult, null, 2)}</Text>
             </ScrollView>
             <View style={styles.buttonSet}>
-                <Button title={shouldSaveFrame ? "Capturing..." : "Capture Frame"} onPress={ () => setShouldSaveFrame(true) }></Button>
+                <OverlayButton title={active ? "Pause" : "Resume"} onPress={ () => setActive(!active) } />
+                <FieldSpacer />
+                <OverlayButton title={shouldSaveFrame ? "Capturing..." : "Capture Frame"} onPress={ () => setShouldSaveFrame(true) } />
             </View>
         </>
     )    
@@ -128,6 +146,10 @@ const styles = StyleSheet.create
     overlayWrapper:
     {
         padding:10,
+    },
+    overlayButton:
+    {
+        marginTop: 10,
     },
     overlayText:
     {
