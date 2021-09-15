@@ -13,11 +13,16 @@ import React, {
 
 import {
   StyleSheet,  
+  ScrollView,
+  Text,
+  Button,
+  View,
+  ToastAndroid,
 } from 'react-native';
 
 import {Camera, useCameraDevices, useCameraFormat, useFrameProcessor} from 'react-native-vision-camera'
-import Animated, {runOnJS, runOnUI} from 'react-native-reanimated';
-import {runExample1, runExample2} from './frame-processors'
+import Animated, {runOnJS} from 'react-native-reanimated';
+import {scanSaveQRCodes, runExample1} from './frame-processors'
 
 function timeStamp() 
 {
@@ -35,9 +40,17 @@ function timeStamp()
     return [year.slice(2), month, day].join('') + '_' + [hours, mins, secs].join('');
 }
 
+function showToast(message)
+{
+    ToastAndroid.showWithGravity(message, ToastAndroid.SHORT, ToastAndroid.CENTER);
+}
+
 function CameraView()
 {
     const [hasPermission, setHasPermission] = useState(false);
+    const [shouldSaveFrame, setShouldSaveFrame] = useState(false);
+    const [scanResult, setScanResult] = useState(null);
+
     const cameraDevices = useCameraDevices();
     const cameraDevice = cameraDevices.back;
     const format = useCameraFormat(cameraDevice);
@@ -48,14 +61,18 @@ function CameraView()
 
         console.log("Processing Frame:", frame.toString());
 
-        const example1Result = runExample1(frame);
-        console.log("example1Result:", example1Result);
+        const filename = shouldSaveFrame ? timeStamp() + "_frame" : null;
+        const result   = scanSaveQRCodes(frame, filename);
 
-        // Second plugin will always crash
-        const example2Result = runExample2(frame);
-        console.log("example2Result:", example2Result);
+        runOnJS(setScanResult)(result);
 
-    }, []);
+        if (shouldSaveFrame)
+        {
+            runOnJS(showToast)("Captured:\n" + result.file);
+            runOnJS(setShouldSaveFrame)(false);
+        }            
+
+    }, [shouldSaveFrame]);
 
     useEffect(function()
     {
@@ -71,14 +88,22 @@ function CameraView()
         return null;
 
     return (
-        <Camera
-            style={ StyleSheet.absoluteFill }
-            device={cameraDevice}
-            format={format}
-            isActive={true}
-            frameProcessor={frameProcessor}
-            frameProcessorFps={1}
-        />
+        <>
+            <Camera
+                style={ StyleSheet.absoluteFill }
+                device={cameraDevice}
+                format={format}
+                isActive={true}
+                frameProcessor={frameProcessor}
+                frameProcessorFps={1}
+            />            
+            <ScrollView style={styles.overlayWrapper}>
+                <Text style={styles.overlayText}>{JSON.stringify(scanResult, null, 2)}</Text>
+            </ScrollView>
+            <View style={styles.buttonSet}>
+                <Button title={shouldSaveFrame ? "Capturing..." : "Capture Frame"} onPress={ () => setShouldSaveFrame(true) }></Button>
+            </View>
+        </>
     )    
 }
 
@@ -90,5 +115,24 @@ function App()
     </>
   );
 };
+
+const styles = StyleSheet.create
+({
+    buttonSet:
+    {
+        position: 'absolute',
+        bottom  : 10,
+        left    : 10,
+        right   : 10,
+    },
+    overlayWrapper:
+    {
+        padding:10,
+    },
+    overlayText:
+    {
+        color: 'yellow',
+    }
+})
 
 export default App;

@@ -9,7 +9,7 @@ module.exports =
         [
             'react-native-reanimated/plugin',
             {
-                globals: ['__saveFrame', '__scanQRCodes', '__runExample1', '__runExample2'],
+                globals: ['__runExample1', '__runExample2', '__scanSaveQRCodes'],
             }
         ]
     ]
