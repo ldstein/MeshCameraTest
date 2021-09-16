@@ -6,6 +6,8 @@ import com.facebook.react.bridge.WritableNativeMap;
 import androidx.camera.core.ImageProxy;
 import com.mrousavy.camera.frameprocessor.FrameProcessorPlugin;
 
+import java.util.UUID;
+
 public class ScanSaveQRCodePlugin extends FrameProcessorPlugin {
 
     private ImageHelper imageHelper;
@@ -17,17 +19,24 @@ public class ScanSaveQRCodePlugin extends FrameProcessorPlugin {
         String outputFilename = (params[0] != null) ? params[0].toString() : null;
 
         WritableNativeMap result = new WritableNativeMap();
+        result.putString("uid", UUID.randomUUID().toString());
+
+        WritableNativeMap frameInfo = new WritableNativeMap();
+        result.putString("frameSize", Integer.toString(frame.getWidth()) + "x" + Integer.toString(frame.getHeight()) );
+        frameInfo.putString("timestamp", String.valueOf(frame.getImageInfo().getTimestamp()));
+        result.putMap("frameInfo", frameInfo);
 
         WritableNativeArray codes = barcodeScanner.Scan(frame);
         int codesFound = codes.size();
 
         if (outputFilename != null) {
 
-            outputFilename += "_" + Integer.toString(codesFound) + "_codes";
-            String savedFilename = imageHelper.saveToDownloads(frame, outputFilename);
+            result.putString("requestedFilename", outputFilename);
+
+            String savedFilename = imageHelper.saveToDownloads(frame, outputFilename + Integer.toString(codesFound) + "_codes");
 
             if (savedFilename != null)
-                result.putString("file", savedFilename);
+                result.putString("capturedFile", savedFilename);
         }
 
         result.putArray("codes", codes);

@@ -33,6 +33,8 @@ public class BarcodeScanner {
         @SuppressLint("UnsafeOptInUsageError")
         Image mediaImage = frame.getImage();
 
+        WritableNativeArray array = new WritableNativeArray();
+
         if (mediaImage != null) {
 
             InputImage image = InputImage.fromMediaImage(mediaImage, frame.getImageInfo().getRotationDegrees());
@@ -41,9 +43,10 @@ public class BarcodeScanner {
             try {
                 List<Barcode> barcodes = Tasks.await(task);
 
-                WritableNativeArray array = new WritableNativeArray();
                 for (Barcode barcode : barcodes) {
                     WritableNativeMap map = new WritableNativeMap();
+                    map.putString("raw", barcode.getRawValue());
+
                     int valueType = barcode.getValueType();
                     // See API reference for complete list of supported types
                     switch (valueType) {
@@ -51,16 +54,14 @@ public class BarcodeScanner {
                             map.putString("title", barcode.getUrl().getTitle());
                             map.putString("url", barcode.getUrl().getUrl());
                             break;
-                        default:
-                            map.putString("data", barcode.getRawValue());
                     }
                     array.pushMap(map);
                 }
-                return array;
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
-        return null;
+        return array;
     }
 }
