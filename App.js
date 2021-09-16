@@ -145,7 +145,7 @@ function useToggle(initialState)
         setVal(!val);
     }, [val]);
 
-    return [val, toggleVal];
+    return [val, toggleVal, setVal];
 }
 //..............................................................................
 
@@ -178,7 +178,7 @@ function CameraView()
     const [active         , setActive         ] = useState(true);
     const [showDebug      , toggleDebug       ] = useToggle(false);
 
-    const [enableFrameProcessor, toggleEnableFrameProcessor] = useToggle(false);
+    const [enableFrameProcessor, toggleEnableFrameProcessor, setEnableFrameProcessor] = useToggle(false);
     const [frameProcessorResult   , setFrameProcessorResult   ] = useState(null);
     
     const devices = useCameraDevices();
@@ -228,8 +228,14 @@ function CameraView()
 
         if (shouldSaveFrame)
         {
-            runOnJS(showToast)("Captured:\n" + result.capturedFile);
+            runOnJS(showToast)("Captured:\n" + result.savedFile);
             runOnJS(setShouldSaveFrame)(false);
+        }
+
+        if (result.saveFileError)
+        {
+            runOnJS(showToast)("Capture Error:\n" + result.saveFileError);
+            runOnJS(setEnableFrameProcessor)(false);
         }
 
         runOnJS(setQrCodes)(result.codes);

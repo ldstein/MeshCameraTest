@@ -1,6 +1,8 @@
 package com.meshcameratest.frameprocessors;
 
 import android.annotation.SuppressLint;
+import android.graphics.Point;
+import android.graphics.Rect;
 import android.media.Image;
 
 import androidx.camera.core.ImageProxy;
@@ -44,9 +46,10 @@ public class BarcodeScanner {
                 List<Barcode> barcodes = Tasks.await(task);
 
                 for (Barcode barcode : barcodes) {
-                    WritableNativeMap map = new WritableNativeMap();
-                    map.putString("raw", barcode.getRawValue());
 
+                    WritableNativeMap map = new WritableNativeMap();
+
+                    // Add Parsed Data
                     int valueType = barcode.getValueType();
                     // See API reference for complete list of supported types
                     switch (valueType) {
@@ -55,6 +58,44 @@ public class BarcodeScanner {
                             map.putString("url", barcode.getUrl().getUrl());
                             break;
                     }
+
+                    String rawValue = barcode.getRawValue();
+
+                    if (rawValue != null)
+                        map.putString("raw", rawValue);
+
+                    // Add BoundingBox
+                    Rect bbox = barcode.getBoundingBox();
+
+                    if (bbox != null)
+                    {
+                        WritableNativeMap boundingBoxMap = new WritableNativeMap();
+                        boundingBoxMap.putInt("top", bbox.top);
+                        boundingBoxMap.putInt("right", bbox.right);
+                        boundingBoxMap.putInt("bottom", bbox.bottom);
+                        boundingBoxMap.putInt("left", bbox.left);
+                        
+                        map.putMap("boundingBox", boundingBoxMap);
+                    }
+
+                    // Add Cornerpoints
+                    Point[] cornerPoints = barcode.getCornerPoints();
+
+                    if (cornerPoints != null)
+                    {
+                        WritableNativeArray cornerPointsArr = new WritableNativeArray();
+
+                        for (Point cornerPoint : cornerPoints) {
+                            WritableNativeArray pointArr = new WritableNativeArray();
+                            pointArr.pushInt(cornerPoint.x);
+                            pointArr.pushInt(cornerPoint.y);
+
+                            cornerPointsArr.pushArray(pointArr);
+                        }
+
+                        map.putArray("cornerPoints", cornerPointsArr);
+                    }
+
                     array.pushMap(map);
                 }
 

@@ -33,10 +33,12 @@ public class ScanSaveQRCodePlugin extends FrameProcessorPlugin {
 
             result.putString("requestedFilename", outputFilename);
 
-            String savedFilename = imageHelper.saveToDownloads(frame, outputFilename + Integer.toString(codesFound) + "_codes");
+            ImageHelperSaveResult saveResult = imageHelper.saveToDownloads(frame, outputFilename + Integer.toString(codesFound) + "_codes");
 
-            if (savedFilename != null)
-                result.putString("capturedFile", savedFilename);
+            if (saveResult.error != null)
+                result.putString("saveFileError", saveResult.error);
+            else
+                result.putString("savedFile", saveResult.savedFile);
         }
 
         result.putArray("codes", codes);
