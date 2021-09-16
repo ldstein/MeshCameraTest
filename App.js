@@ -264,6 +264,8 @@ function CameraView()
     const formatHeight = selectedFormat?.videoWidth  || windowDimensions.height;
     const previewScale  = windowDimensions.width / formatWidth;
 
+    const flipOverlay = selectedDevice?.position == "front";
+
     return (
         <>
             {
@@ -284,7 +286,7 @@ function CameraView()
                 <View style={ [StyleSheet.absoluteFill, {justifyContent:'center', alignItems:'center'}] }><Text style={ {color:'white'} }>Camera Not Ready</Text></View>
             }
 
-            <BarcodeOverlay codes={qrCodes} scale={previewScale} />                
+            <BarcodeOverlay codes={qrCodes} scale={previewScale} flip={flipOverlay} />
 
             <View style={styles.hud}>
 
