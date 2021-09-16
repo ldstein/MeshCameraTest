@@ -21,12 +21,15 @@ import {
   Button,
   View,
   ToastAndroid,
+  useWindowDimensions,
 } from 'react-native';
 
 import {Camera, useCameraFormat, useFrameProcessor} from 'react-native-vision-camera'
 import Animated, {runOnJS} from 'react-native-reanimated';
 import {scanSaveQRCodes, runExample1} from './frame-processors'
 import {Picker} from '@react-native-picker/picker';
+
+import BarcodeOverlay from './BarcodeOverlay';
 
 function FieldSpacer({size=5})
 {
@@ -172,6 +175,8 @@ function useFormatsPickerItems(formats=[])
 
 function CameraView()
 {    
+    const windowDimensions = useWindowDimensions();
+
     const [hasPermission  , setHasPermission  ] = useState(false);
     const [shouldSaveFrame, setShouldSaveFrame] = useState(false);
     const [qrCodes        , setQrCodes        ] = useState([]);
@@ -254,25 +259,32 @@ function CameraView()
     }, []);
 
     const cameraReady = hasPermission && selectedDevice;
+        
+    const formatWidth  = selectedFormat?.videoHeight || windowDimensions.width;
+    const formatHeight = selectedFormat?.videoWidth  || windowDimensions.height;
+    const previewScale  = windowDimensions.width / formatWidth;
 
     return (
         <>
             {
                 cameraReady ?
                 <Camera
-                    style={ StyleSheet.absoluteFill }
+                    style={ {position:'absolute'} }
+                    width={formatWidth * previewScale}
+                    height={formatHeight * previewScale}
                     device={selectedDevice}
                     format={selectedFormat}
                     isActive={active}
                     enableZoomGesture={true}
                     frameProcessor={enableFrameProcessor ? frameProcessor : null}
-                    frameProcessorFormat={selectedFormat}
                     frameProcessorFps={frameProcessorFps}
                     onFrameProcessorPerformanceSuggestionAvailable={setFrameProcessorPerformanceSuggestion}
                 />
                 :
                 <View style={ [StyleSheet.absoluteFill, {justifyContent:'center', alignItems:'center'}] }><Text style={ {color:'white'} }>Camera Not Ready</Text></View>
             }
+
+            <BarcodeOverlay codes={qrCodes} scale={previewScale} />                
 
             <View style={styles.hud}>
 
@@ -299,8 +311,6 @@ function CameraView()
                     </View>
 
                 }
-
-                
 
                 <View style={styles.topBtnSet}>
                     <Button title={'Raw'} onPress={toggleDebug} />

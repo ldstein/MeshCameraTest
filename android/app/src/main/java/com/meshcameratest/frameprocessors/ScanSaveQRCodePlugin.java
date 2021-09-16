@@ -22,9 +22,10 @@ public class ScanSaveQRCodePlugin extends FrameProcessorPlugin {
         result.putString("uid", UUID.randomUUID().toString());
 
         WritableNativeMap frameInfo = new WritableNativeMap();
-        result.putString("frameSize", Integer.toString(frame.getWidth()) + "x" + Integer.toString(frame.getHeight()) );
+        frameInfo.putInt("width", frame.getWidth());
+        frameInfo.putInt("height", frame.getHeight());
         frameInfo.putString("timestamp", String.valueOf(frame.getImageInfo().getTimestamp()));
-        result.putMap("frameInfo", frameInfo);
+        result.putMap("frame", frameInfo);
 
         WritableNativeArray codes = barcodeScanner.Scan(frame);
         int codesFound = codes.size();
@@ -33,7 +34,7 @@ public class ScanSaveQRCodePlugin extends FrameProcessorPlugin {
 
             result.putString("requestedFilename", outputFilename);
 
-            ImageHelperSaveResult saveResult = imageHelper.saveToDownloads(frame, outputFilename + Integer.toString(codesFound) + "_codes");
+            ImageHelperSaveResult saveResult = imageHelper.saveToDownloads(frame, outputFilename + "_" + Integer.toString(codesFound) + "_codes");
 
             if (saveResult.error != null)
                 result.putString("saveFileError", saveResult.error);
