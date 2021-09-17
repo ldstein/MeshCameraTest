@@ -23,7 +23,7 @@ public class ImageHelper {
 
     private Context context;
 
-    public String saveToDownloads(ImageProxy mediaImage, String outputFilename){
+    public ImageHelperSaveResult saveToDownloads(ImageProxy mediaImage, String outputFilename){
 
         int width = mediaImage.getWidth();
         int height = mediaImage.getHeight();
@@ -48,16 +48,18 @@ public class ImageHelper {
 
         Uri uri = this.context.getContentResolver().insert(MediaStore.Files.getContentUri("external"), values); //important!
 
-        String result = null;
+        ImageHelperSaveResult result = new ImageHelperSaveResult();
 
         try {
             OutputStream outputStream = this.context.getContentResolver().openOutputStream(uri);
             outputStream.write(jpegBytes);
             outputStream.close();
-            result = outputFilename + ".jpg";
+            result.savedFile = outputFilename + ".jpg";
         } catch (FileNotFoundException e) {
+            result.error = "FileNotFoundException: " + e.toString();
             e.printStackTrace();
         } catch (IOException e) {
+            result.error = "IOException: " + e.toString();
             e.printStackTrace();
         }
 

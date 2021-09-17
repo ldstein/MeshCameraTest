@@ -29,10 +29,12 @@ public class SaveFramePlugin extends FrameProcessorPlugin {
 
     Context context;
 
-    private String saveImageToDisk(ImageProxy mediaImage, String outputFilename){
+    private ImageHelperSaveResult saveImageToDisk(ImageProxy mediaImage, String outputFilename){
 
         int width = mediaImage.getWidth();
         int height = mediaImage.getHeight();
+
+        ImageHelperSaveResult result = new ImageHelperSaveResult();
 
         Yuv.Converted converted = Yuv.toBuffer(mediaImage);
 
@@ -58,13 +60,16 @@ public class SaveFramePlugin extends FrameProcessorPlugin {
             OutputStream outputStream = this.context.getContentResolver().openOutputStream(uri);
             outputStream.write(jpegBytes);
             outputStream.close();
+            result.savedFile = outputFilename + ".jpg";
         } catch (FileNotFoundException e) {
+            result.error = "FileNoutFoundException: " + e.toString();
             e.printStackTrace();
         } catch (IOException e) {
+            result.error = "IOException: " + e.toString();
             e.printStackTrace();
         }
 
-        return outputFilename;
+        return result;
     }
 
     @Override
