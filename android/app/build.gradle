@@ -208,6 +208,8 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+    
+    compile (name:'wechatqrscanner-debug', ext:'aar')
 }
 
 // Run this once to be able to run the application with BUCK
