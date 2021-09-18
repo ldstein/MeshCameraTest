@@ -246,7 +246,7 @@ function CameraView()
         }
 
 //        runOnJS(setQrCodes)(result.codes);
-        runOnJS(setQrCodes)(result[0].url);
+        runOnJS(setQrCodes)(result);
         runOnJS(setFrameProcessorResult)(result);
 
     }, [shouldSaveFrame]);
