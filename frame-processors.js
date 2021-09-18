@@ -51,4 +51,12 @@ function runExample2(frame)
     return __runExample2(frame);
 }
 
-export {runExample1, runExample2, scanSaveQRCodes}
+function wechatQRCodes(frame)
+{
+  'worklet';
+  // @ts-ignore
+  // eslint-disable-next-line no-undef
+  return __wechatQRCodes(frame);
+}
+
+export {runExample1, runExample2, scanSaveQRCodes, wechatQRCodes}

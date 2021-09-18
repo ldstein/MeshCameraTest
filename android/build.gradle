@@ -34,5 +34,9 @@ allprojects {
 
         google()
         maven { url 'https://www.jitpack.io' }
+        
+        flatDir {
+            dirs 'src/main/libs'
+        }
     }
 }

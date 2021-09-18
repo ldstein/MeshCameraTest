@@ -26,7 +26,7 @@ import {
 
 import {Camera, useCameraFormat, useFrameProcessor} from 'react-native-vision-camera'
 import Animated, {runOnJS} from 'react-native-reanimated';
-import {scanSaveQRCodes, runExample1} from './frame-processors'
+import {scanSaveQRCodes, runExample1, wechatQRCodes} from './frame-processors'
 import {Picker} from '@react-native-picker/picker';
 
 import BarcodeOverlay from './BarcodeOverlay';
@@ -229,11 +229,13 @@ function CameraView()
         console.log(timeNow, "Processing Frame:", dimensions);
 
         const filename = shouldSaveFrame ? [timeNow, "frame", dimensions].join("_") : null;
-        const result   = scanSaveQRCodes(frame, filename);
+//        const result   = scanSaveQRCodes(frame, filename);
+        const result = wechatQRCodes(frame);
 
         if (shouldSaveFrame)
         {
-            runOnJS(showToast)("Captured:\n" + result.savedFile);
+//            runOnJS(showToast)("Captured:\n" + result.capturedFile);
+            runOnJS(showToast)("Captured:\n" + filename);
             runOnJS(setShouldSaveFrame)(false);
         }
 
@@ -243,7 +245,8 @@ function CameraView()
             runOnJS(setEnableFrameProcessor)(false);
         }
 
-        runOnJS(setQrCodes)(result.codes);
+//        runOnJS(setQrCodes)(result.codes);
+        runOnJS(setQrCodes)(result);
         runOnJS(setFrameProcessorResult)(result);
 
     }, [shouldSaveFrame]);

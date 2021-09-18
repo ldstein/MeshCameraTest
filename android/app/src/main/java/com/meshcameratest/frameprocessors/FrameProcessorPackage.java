@@ -23,6 +23,9 @@ public class FrameProcessorPackage implements ReactPackage {
         FrameProcessorPlugin.register(new ExamplePlugin1());
         FrameProcessorPlugin.register(new ExamplePlugin2());
         FrameProcessorPlugin.register(new ScanSaveQRCodePlugin(context));
+        FrameProcessorPlugin.register(new WechatQrScannerPlugin());
+
+
         return Collections.emptyList();
     }
 
