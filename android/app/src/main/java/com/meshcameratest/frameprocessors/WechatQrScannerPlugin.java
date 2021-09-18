@@ -14,6 +14,7 @@ import androidx.camera.core.ImageProxy;
 import android.media.Image;
 
 import com.wechatqrscanner.wechatQR;
+import com.wechatqrscanner.QrCode;
 
 
 public class WechatQrScannerPlugin extends FrameProcessorPlugin {
@@ -26,11 +27,37 @@ public class WechatQrScannerPlugin extends FrameProcessorPlugin {
         @SuppressLint("UnsafeOptInUsageError")
         Image mediaImage = frame.getImage();
         if (mediaImage != null) {
-            String[] qrstrings = wechatQRScanner.getQRCode(mediaImage);
+            QrCode[] qrcodes = wechatQRScanner.getQRCode(mediaImage);
             WritableNativeArray array = new WritableNativeArray();
-            for (String s: qrstrings) {
+            for (QrCode s: qrcodes) {
                 WritableNativeMap map = new WritableNativeMap();
-                map.putString("url", s);
+                map.putString("url", s.url);
+                
+                // create location{ top{x, y}, left{x,y}, bottom{x,y}, right{x,y}}
+                WritableNativeMap top = new WritableNativeMap();
+                top.putDouble("x", s.topx);
+                top.putDouble("y", s.topy);
+                
+                WritableNativeMap left = new WritableNativeMap();
+                left.putDouble("x", s.leftx);
+                left.putDouble("y", s.lefty);
+                
+                WritableNativeMap bottom = new WritableNativeMap();
+                bottom.putDouble("x", s.bottomx);
+                bottom.putDouble("y", s.bottomy);
+
+                WritableNativeMap right = new WritableNativeMap();
+                right.putDouble("x", s.rightx);
+                right.putDouble("y", s.righty);
+
+                WritableNativeMap location = new WritableNativeMap();
+                location.putMap("top", top);
+                location.putMap("left", left);
+                location.putMap("bottom", bottom);
+                location.putMap("right", right);
+                
+                map.putMap("location", location);
+                
                 array.pushMap(map);
             }
             return array;
