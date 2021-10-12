@@ -3,17 +3,25 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "postinstall": "copy hacks\\CMakeLists.txt node_modules\\react-native-vision-camera\\android && copy hacks\\CameraView.kt node_modules\\react-native-vision-camera\\android\\src\\main\\java\\com\\mrousavy\\camera && echo Applied React Native Vision Camera hacks",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "build": "cd android && gradlew assembleDebug",
+    "install:android": "cd android\\app\\build\\outputs\\apk\\debug && adb install app-debug.apk",
+    "bundle:build": "npm run bundle && npm run build",
+    "bundle:build:install": "npm run bundle && npm run build && npm run install:android"
   },
   "dependencies": {
     "react": "17.0.2",
     "react-native": "0.65.1",
-    "react-native-reanimated": "^2.3.0-alpha.3",
-    "react-native-vision-camera": "^2.7.0"
+    "react-native-nfc-manager": "^3.11.0",
+    "react-native-reanimated": "^2.3.0-beta.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-vision-camera": "^2.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

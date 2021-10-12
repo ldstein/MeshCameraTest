@@ -6,89 +6,126 @@
  * @flow strict-local
  */
 
-import React, {
-    useState,
-    useEffect,
-} from 'react';
+import React, {useCallback, useState, useMemo} from 'react';
 
 import {
-  StyleSheet,  
+  StyleSheet,
+  Text,
+  View,
+  Button,
 } from 'react-native';
 
-import {Camera, useCameraDevices, useCameraFormat, useFrameProcessor} from 'react-native-vision-camera'
-import Animated, {runOnJS, runOnUI} from 'react-native-reanimated';
-import {runExample1, runExample2} from './frame-processors'
+import Camera from './Camera'
+import nfc from './nfc'
 
-function timeStamp() 
+function Spacer()
 {
-    'worklet';
-
-    var now = new Date();
-
-    let year  = String(now.getFullYear() ).padStart(2, "0");
-    let month = String(now.getMonth() + 1).padStart(2, "0");
-    let day   = String(now.getDate()     ).padStart(2, "0");
-    let hours = String(now.getHours()    ).padStart(2, "0");
-    let mins  = String(now.getMinutes()  ).padStart(2, "0");
-    let secs  = String(now.getSeconds()  ).padStart(2, "0");
-
-    return [year.slice(2), month, day].join('') + '_' + [hours, mins, secs].join('');
+    return <View style={styles.spacer} />
 }
 
-function CameraView()
+let appState = 
 {
-    const [hasPermission, setHasPermission] = useState(false);
-    const cameraDevices = useCameraDevices();
-    const cameraDevice = cameraDevices.back;
-    const format = useCameraFormat(cameraDevice);
+    cameraLib:'react-native-vision-camera',
+    showCamera:false,
+    qr:null,
+    nfc:null,
+};
 
-    const frameProcessor = useFrameProcessor(function(frame)
-    {
-        'worklet';
+function toggleCamera()
+{
+    appState.showCamera = !appState.showCamera;
+}
 
-        console.log("Processing Frame:", frame.toString());
-
-        const example1Result = runExample1(frame);
-        console.log("example1Result:", example1Result);
-
-        // Second plugin will always crash
-        const example2Result = runExample2(frame);
-        console.log("example2Result:", example2Result);
-
-    }, []);
-
-    useEffect(function()
-    {
-        async function onMount()
-        {
-            const permission = await Camera.requestCameraPermission();
-            setHasPermission(permission === 'authorized');
-        }
-        onMount();
-    }, []);
-
-    if (!hasPermission || !cameraDevice)
-        return null;
-
-    return (
-        <Camera
-            style={ StyleSheet.absoluteFill }
-            device={cameraDevice}
-            format={format}
-            isActive={true}
-            frameProcessor={frameProcessor}
-            frameProcessorFps={1}
-        />
-    )    
+function clearResults()
+{
+    appState.qr  = null;
+    appState.nfc = null;
 }
 
 function App()
 {
-  return (
-    <>
-        <CameraView />
-    </>
-  );
-};
+    const [renderCount, setRenderCount] = useState(0);
+
+    console.log('xssssssssssssssssssxx AppState', appState);
+
+    const 
+    {
+        showCamera
+    } = appState;
+
+    const triggerRender = useCallback(function()
+    {
+        setRenderCount(prevRenderCount => prevRenderCount + 1);
+    }, []);
+
+    // const onReadCode = useCallback(function(event)
+    // {
+    //     console.log('xxx readCodes');
+    //     appState = 
+    //     {
+    //         ...appState,
+    //         qr: {time:Date.now(), data:event.nativeEvent.codeStringValue}
+    //     };
+    //     triggerRender();
+    // }, []);
+
+    const onReadNFC = useCallback(function(nfc)
+    {
+        appState = {...appState, time:Date.now(), nfc};
+        triggerRender();
+    }, []);
+   
+    return (
+        <View style={styles.wrapper} >
+            {showCamera ?  <Camera /> : null}
+            <View>
+                <Text style={styles.headingText}>REACT NATIVE VISION CAMERA</Text>
+                <Text style={styles.overlayText}>{JSON.stringify({appState, renderCount}, null, 2)}</Text>
+            </View>
+            <View style={styles.nav}>
+                <Button title={"ShowCamera:" + (showCamera ? "True" : "False")} onPress={() => { toggleCamera(); triggerRender(); } } />
+                <Spacer />
+                <Button title={"Clear Found"} onPress={() => {clearResults(); triggerRender(); } } />
+                <Spacer />
+                <Button title={"Start NFC"} onPress={() => {nfc.start(onReadNFC); triggerRender(); } } />
+                <Spacer />
+                <Button title={"Stop NFC"} onPress={() => {nfc.stop(); triggerRender(); } } />
+            </View>
+        </View>        
+    )
+}
+
+const styles = StyleSheet.create
+({
+  wrapper:
+  {
+    backgroundColor:'#2a667c',
+    padding:10,
+    ...StyleSheet.absoluteFill,
+  },
+  headingText:
+  {
+    fontSize:16,
+    fontWeight:'bold',
+    color:'yellow',
+  },
+  nav:
+  {
+      position: 'absolute',
+      bottom  : 0,
+      left    : 0,
+      right   : 0,
+      padding : 10,
+  },
+  overlayText:
+  {
+      color:'yellow',
+  },
+  spacer:
+  {
+      width : 10,
+      height: 10,
+  }
+});
 
 export default App;
