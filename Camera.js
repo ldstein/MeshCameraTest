@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -16,10 +17,8 @@ import {
 } from 'react-native';
 
 import {Camera, useCameraDevices, useCameraFormat, useFrameProcessor} from 'react-native-vision-camera'
-import Animated, {runOnJS, runOnUI} from 'react-native-reanimated';
-import {runExample1, runExample2} from './frame-processors'
 
-function CameraView()
+function CameraView({active, frameProcessorActive})
 {
     const [hasPermission, setHasPermission] = useState(false);
     const cameraDevices = useCameraDevices();
@@ -54,14 +53,18 @@ function CameraView()
     if (!hasPermission || !cameraDevice)
         return null;
 
+    const extraProps = {};
+
+    if (frameProcessorActive)
+        Object.assign(extraProps, {frameProcessor});
+
     return (
         <Camera
             style={ StyleSheet.absoluteFill }
             device={cameraDevice}
             format={format}
-            isActive={true}
-            frameProcessor={frameProcessor}
-            frameProcessorFps={1}
+            isActive={active}
+            {...extraProps}
         />
     )    
 }

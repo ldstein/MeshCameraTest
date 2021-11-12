@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -6,126 +7,85 @@
  * @flow strict-local
  */
 
-import React, {useCallback, useState, useMemo} from 'react';
+import Modal from 'react-native-modal';
 
-import {
-  StyleSheet,
-  Text,
-  View,
-  Button,
+import React, {useState} from 'react';
+
+import 
+{
+    StyleSheet,
+    Text,
+    View,
+    Button,
 } from 'react-native';
 
 import Camera from './Camera'
-import nfc from './nfc'
 
-function Spacer()
+function Spacer() 
 {
     return <View style={styles.spacer} />
 }
 
-let appState = 
-{
-    cameraLib:'react-native-vision-camera',
-    showCamera:false,
-    qr:null,
-    nfc:null,
-};
+function App() {
 
-function toggleCamera()
-{
-    appState.showCamera = !appState.showCamera;
-}
+    const [isModalVisible, setModalVisible] = useState(false);
+    const [isCameraActive, setCameraActive] = useState(true);
+    const [isFpActive, setFpActive] = useState(false);
 
-function clearResults()
-{
-    appState.qr  = null;
-    appState.nfc = null;
-}
-
-function App()
-{
-    const [renderCount, setRenderCount] = useState(0);
-
-    console.log('xssssssssssssssssssxx AppState', appState);
-
-    const 
+    const toggleModal = function ()
     {
-        showCamera
-    } = appState;
+        setModalVisible(!isModalVisible);
+    }
 
-    const triggerRender = useCallback(function()
+    const toggleCameraActive = function()
     {
-        setRenderCount(prevRenderCount => prevRenderCount + 1);
-    }, []);
+        setCameraActive(!isCameraActive);
+    }
 
-    // const onReadCode = useCallback(function(event)
-    // {
-    //     console.log('xxx readCodes');
-    //     appState = 
-    //     {
-    //         ...appState,
-    //         qr: {time:Date.now(), data:event.nativeEvent.codeStringValue}
-    //     };
-    //     triggerRender();
-    // }, []);
-
-    const onReadNFC = useCallback(function(nfc)
+    const toggleFrameProcessor = function ()
     {
-        appState = {...appState, time:Date.now(), nfc};
-        triggerRender();
-    }, []);
-   
+        setFpActive(!isFpActive);
+    }
+
     return (
         <View style={styles.wrapper} >
-            {showCamera ?  <Camera /> : null}
-            <View>
-                <Text style={styles.headingText}>REACT NATIVE VISION CAMERA</Text>
-                <Text style={styles.overlayText}>{JSON.stringify({appState, renderCount}, null, 2)}</Text>
-            </View>
-            <View style={styles.nav}>
-                <Button title={"ShowCamera:" + (showCamera ? "True" : "False")} onPress={() => { toggleCamera(); triggerRender(); } } />
-                <Spacer />
-                <Button title={"Clear Found"} onPress={() => {clearResults(); triggerRender(); } } />
-                <Spacer />
-                <Button title={"Start NFC"} onPress={() => {nfc.start(onReadNFC); triggerRender(); } } />
-                <Spacer />
-                <Button title={"Stop NFC"} onPress={() => {nfc.stop(); triggerRender(); } } />
-            </View>
-        </View>        
-    )
+            <Button title="Show Modal" onPress={toggleModal} />
+
+            <Modal isVisible={isModalVisible}>
+                <View style={styles.modalWrapper}>
+                    <Camera active={isCameraActive} frameProcessorActive={isFpActive} />
+                    <Button title="Hide modal" onPress={toggleModal} />
+                    <Spacer />
+                    <Button title="Toggle Camera Active" onPress={toggleCameraActive} />
+                    <Spacer />
+                    <Button title="Toggle Frame processor" onPress={toggleFrameProcessor} />
+                </View>
+            </Modal>
+        </View>
+    );
 }
 
 const styles = StyleSheet.create
 ({
-  wrapper:
-  {
-    backgroundColor:'#2a667c',
-    padding:10,
-    ...StyleSheet.absoluteFill,
-  },
-  headingText:
-  {
-    fontSize:16,
-    fontWeight:'bold',
-    color:'yellow',
-  },
-  nav:
-  {
-      position: 'absolute',
-      bottom  : 0,
-      left    : 0,
-      right   : 0,
-      padding : 10,
-  },
-  overlayText:
-  {
-      color:'yellow',
-  },
-  spacer:
-  {
-      width : 10,
-      height: 10,
-  }
+    wrapper:
+    {
+        backgroundColor: '#2a667c',
+        justifyContent:'center',
+        alignItems:'center',
+        flex: 1,
+    },
+    modalWrapper:
+    {
+        backgroundColor: 'white',
+        flex: 1,
+        padding: 10,
+        borderRadius: 10,
+    },
+    spacer:
+    {
+        width: 10,
+        height: 10,
+    },
 });
 
 export default App;
